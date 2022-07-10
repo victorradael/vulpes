@@ -1,0 +1,84 @@
+.nav_bar {
+  position: absolute;
+  display: flex;
+  flex-direction: line;
+
+  align-items: center;
+
+  gap: 30rem;
+
+  max-width: 100%;
+  overflow: hidden;
+
+  top: 0;
+  left: 5rem;
+
+  padding: 2.5rem;
+
+  color: var(--text-light-color);
+
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.nav_bar a {
+  margin-right: 1.5rem;
+}
+
+.container {
+  display: flex;
+  background-image: url("../../../public/header.png");
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  max-width: 100%;
+
+  padding: 0rem 30rem;
+  overflow: hidden;
+}
+
+.content h1,
+.content p {
+  color: var(--text-light-color);
+
+  overflow: hidden;
+}
+
+.container .content h1 {
+  font-size: 5rem;
+  line-height: 7rem;
+}
+
+.text_bigger {
+  font-size: 1.8rem;
+}
+
+.button {
+  display: flex;
+  padding: 1rem 2rem;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 0.4rem;
+
+  background-color: var(--secondary-color);
+
+  cursor: pointer;
+}
+
+.button p {
+  margin: 0;
+  padding: 0;
+}
