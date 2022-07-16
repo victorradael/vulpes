@@ -5,9 +5,10 @@ interface ICustomHead {
 }
 
 const CustomHead = ({ title }: ICustomHead) => {
+  const text = `Vulpes Idiomas ${title || ""}`;
   return (
     <Head>
-      <title>Vulpes Idiomas {title}</title>
+      <title>{text}</title>
       <meta name="Vulpes Idiomas" content="Vulpes Idiomas" />
       <link rel="icon" href="/vulpes_ico.svg" />
     </Head>

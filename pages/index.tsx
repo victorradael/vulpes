@@ -1,3 +1,3 @@
-import LandingPage from "../src/views/LandingPage";
+import LandingPage from "../src/pages/LandingPage";
 
 export default LandingPage;
