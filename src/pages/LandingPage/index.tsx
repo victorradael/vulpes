@@ -2,8 +2,14 @@ import type { NextPage } from "next";
 import ContentContainer from "../../components/ContentContainer";
 import CustomHead from "../../components/CustomHead";
 import { Footer } from "../../components/Footer";
-import { InfoCard } from "../../components/InfoCard";
+import { HowWeWork } from "../../components/HowWeWork";
+import { EachCustomerIsUnique } from "../../components/EachCustomerIsUnique";
+import { WorldPortals } from "../../components/WorldPortals";
 import Header from "../../views/Header";
+import { WhatDoYouFindHere } from "../../components/WhatDoYouFindHere";
+import { OurTeam } from "../../components/OurTeam";
+import { TheBestTeachers } from "../../components/TheBestTeachers";
+import { Contact } from "../../components/Contact";
 
 const LandingPage: NextPage = () => {
   return (
@@ -11,7 +17,13 @@ const LandingPage: NextPage = () => {
       <CustomHead />
       <ContentContainer>
         <Header />
-        <InfoCard/>
+        <EachCustomerIsUnique />
+        <HowWeWork />
+        <WorldPortals />
+        <WhatDoYouFindHere />
+        <OurTeam />
+        <TheBestTeachers />
+        <Contact />
         <Footer />
       </ContentContainer>
     </>
