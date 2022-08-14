@@ -20,7 +20,7 @@ export const WhatDoYouFindHere = () => {
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img className={styles.image} variant="top" src="circle.svg" />
+          <Card.Img className={styles.image} variant="top" src="class.png" />
           <Card.Body>
             <Card.Title>Aulas práticas</Card.Title>
             <Card.Text>
@@ -34,7 +34,7 @@ export const WhatDoYouFindHere = () => {
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img className={styles.image} variant="top" src="grad.svg" />
+          <Card.Img className={styles.image} variant="top" src="student.png" />
           <Card.Body>
             <Card.Title>Respeitamos seu ritmo</Card.Title>
             <Card.Text>
@@ -52,7 +52,7 @@ export const WhatDoYouFindHere = () => {
           <Card.Img
             className={styles.image}
             variant="top"
-            src="telescopio.svg"
+            src="target.png"
           />
           <Card.Body>
             <Card.Title>Conforme seu objetivo</Card.Title>

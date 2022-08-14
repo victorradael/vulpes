@@ -20,28 +20,20 @@ export const OurTeam = () => {
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img className={styles.image} variant="top" src="circle.svg" />
+          <Card.Img className={styles.image} variant="top" src="st1.png" />
           <Card.Body>
-            <Card.Title>Aulas práticas</Card.Title>
-            <Card.Text>
-              A forma mais funcional e proveitosa de aprender um idioma é
-              praticando. Criamos um ambiente de imersão orientada nas aulas
-              para que você se torne um comunicador eficiente.
-            </Card.Text>
+            <Card.Title>João Guilherme</Card.Title>
+            <Card.Text>Diretor Comercial</Card.Text>
           </Card.Body>
         </Card>
         <Card
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img className={styles.image} variant="top" src="grad.svg" />
+          <Card.Img className={styles.image} variant="top" src="st2.png" />
           <Card.Body>
-            <Card.Title>Respeitamos seu ritmo</Card.Title>
-            <Card.Text>
-              Nossas aulas são individuais ou em duplas, e sempre serão. Você
-              pode avançar no seu tempo, aproveitando A potencial e superando
-              suas dificuldades. Aqui, você está no seu lugar.
-            </Card.Text>
+            <Card.Title>Emanuelly Moraes</Card.Title>
+            <Card.Text>Diretora Executiva</Card.Text>
           </Card.Body>
         </Card>
 
@@ -49,18 +41,21 @@ export const OurTeam = () => {
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img
-            className={styles.image}
-            variant="top"
-            src="telescopio.svg"
-          />
+          <Card.Img className={styles.image} variant="top" src="st3.png" />
           <Card.Body>
-            <Card.Title>Conforme seu objetivo</Card.Title>
-            <Card.Text>
-              Conduzimos as aulas baseados em seus objetivos com o idioma.
-              Alinhamos as expectativas com honestidade e planejamos o processo
-              para te levar até lá.
-            </Card.Text>
+            <Card.Title>André da Mata</Card.Title>
+            <Card.Text>Diretor de Operações</Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card
+          style={{ width: "18rem", minHeight: "20rem" }}
+          className={styles.card}
+        >
+          <Card.Img className={styles.image} variant="top" src="st4.png" />
+          <Card.Body>
+            <Card.Title>Eduarda Lima</Card.Title>
+            <Card.Text>Diretora Financeira</Card.Text>
           </Card.Body>
         </Card>
       </div>
