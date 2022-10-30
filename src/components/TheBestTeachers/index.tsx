@@ -20,87 +20,34 @@ export const TheBestTeachers = () => {
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img className={styles.image} variant="top" src="t1.png" />
+          <Card.Img className={styles.image} variant="top" src="Sarah.png" />
           <Card.Body>
-            <Card.Title>Marcela Fernandes</Card.Title>
-            <Card.Text>Professora de Alemão</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card
-          style={{ width: "18rem", minHeight: "20rem" }}
-          className={styles.card}
-        >
-          <Card.Img className={styles.image} variant="top" src="t2.png" />
-          <Card.Body>
-            <Card.Title>Bryan Cunha</Card.Title>
-            <Card.Text>Professor de Inglês</Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card
-          style={{ width: "18rem", minHeight: "20rem" }}
-          className={styles.card}
-        >
-          <Card.Img className={styles.image} variant="top" src="t3.png" />
-          <Card.Body>
-            <Card.Title>Heloísa Barros</Card.Title>
+            <Card.Title>Sarah</Card.Title>
             <Card.Text>Professora de Inglês</Card.Text>
           </Card.Body>
         </Card>
-
         <Card
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img className={styles.image} variant="top" src="t4.png" />
+          <Card.Img className={styles.image} variant="top" src="Murilo.png" />
           <Card.Body>
-            <Card.Title>Thiago Correia</Card.Title>
+            <Card.Title>Murilo</Card.Title>
             <Card.Text>Professor de Inglês</Card.Text>
           </Card.Body>
         </Card>
-
         <Card
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img className={styles.image} variant="top" src="t5.png" />
+          <Card.Img className={styles.image} variant="top" src="Henrique.png" />
           <Card.Body>
-            <Card.Title>Isabelly Cardoso</Card.Title>
-            <Card.Text>Professora de Alemão</Card.Text>
-          </Card.Body>
-        </Card>
-        <Card
-          style={{ width: "18rem", minHeight: "20rem" }}
-          className={styles.card}
-        >
-          <Card.Img className={styles.image} variant="top" src="t6.png" />
-          <Card.Body>
-            <Card.Title>Bianca Moura</Card.Title>
-            <Card.Text>Professora de Inglês</Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card
-          style={{ width: "18rem", minHeight: "20rem" }}
-          className={styles.card}
-        >
-          <Card.Img className={styles.image} variant="top" src="t7.png" />
-          <Card.Body>
-            <Card.Title>Kevin Ferreira</Card.Title>
+            <Card.Title>Henrique</Card.Title>
             <Card.Text>Professor de Francês</Card.Text>
           </Card.Body>
         </Card>
 
-        <Card
-          style={{ width: "18rem", minHeight: "20rem" }}
-          className={styles.card}
-        >
-          <Card.Img className={styles.image} variant="top" src="t8.png" />
-          <Card.Body>
-            <Card.Title>Henrique Viana</Card.Title>
-            <Card.Text>Professor de Francês</Card.Text>
-          </Card.Body>
-        </Card>
+        
       </div>
     </div>
   );

@@ -16,7 +16,7 @@ export const OurTeam = () => {
       </div>
 
       <div className={styles.cards}>
-        <Card
+        {/* <Card
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
@@ -25,19 +25,19 @@ export const OurTeam = () => {
             <Card.Title>João Guilherme</Card.Title>
             <Card.Text>Diretor Comercial</Card.Text>
           </Card.Body>
-        </Card>
+        </Card> */}
         <Card
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
-          <Card.Img className={styles.image} variant="top" src="st2.png" />
+          <Card.Img className={styles.image} variant="top" src="Rebecca.png" />
           <Card.Body>
-            <Card.Title>Emanuelly Moraes</Card.Title>
+            <Card.Title>Rebecca Seabra</Card.Title>
             <Card.Text>Diretora Executiva</Card.Text>
           </Card.Body>
         </Card>
 
-        <Card
+        {/* <Card
           style={{ width: "18rem", minHeight: "20rem" }}
           className={styles.card}
         >
@@ -57,7 +57,7 @@ export const OurTeam = () => {
             <Card.Title>Eduarda Lima</Card.Title>
             <Card.Text>Diretora Financeira</Card.Text>
           </Card.Body>
-        </Card>
+        </Card> */}
       </div>
     </div>
   );
