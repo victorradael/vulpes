@@ -19,14 +19,14 @@ const LandingPage: NextPage = () => {
       <NavigationBar />
       <ContentContainer>
         <Header />
-        <EachCustomerIsUnique />
+        {/* <EachCustomerIsUnique />
         <HowWeWork />
         <WorldPortals />
         <WhatDoYouFindHere />
         <OurTeam />
         <TheBestTeachers />
         <Contact />
-        <Footer />
+        <Footer /> */}
       </ContentContainer>
     </>
   );

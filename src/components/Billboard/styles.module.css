@@ -1,41 +1,28 @@
-.nav_bar {
-  position: absolute;
-  display: flex;
-  flex-direction: line;
 
-  align-items: center;
-
-  gap: 30rem;
-
-  max-width: 100%;
-  overflow: hidden;
-
-  top: 0;
-  left: 5rem;
-
-  padding: 2.5rem;
-
-  color: var(--text-light-color);
-
-  font-weight: bolder;
-  font-size: 1.3rem;
-}
-
-.nav_bar a {
-  margin-right: 1.5rem;
-}
 
 .container {
-  display: flex;
-  background-image: url("../../../public/header.png");
-
-  align-items: center;
-  justify-content: center;
-
-  width: 100%;
-  height: 100vh;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  max-width: 90rem;
+  min-height: 85vh;
+  background-color: var(--primary-color);
+  margin: 2rem 0rem;
+  border-radius: 1rem;
   overflow: hidden;
 }
+
+.image {
+  background-image: url("../../../public/vulpes.jpg");
+  background-size: 70rem;
+  height: 85vh;
+  background-position: 60rem 190rem;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
+
 
 .content {
   display: flex;
