@@ -10,11 +10,13 @@ import { WhatDoYouFindHere } from "../../components/WhatDoYouFindHere";
 import { OurTeam } from "../../components/OurTeam";
 import { TheBestTeachers } from "../../components/TheBestTeachers";
 import { Contact } from "../../components/Contact";
+import NavigationBar from "../../components/NavBar";
 
 const LandingPage: NextPage = () => {
   return (
     <>
       <CustomHead />
+      <NavigationBar />
       <ContentContainer>
         <Header />
         <EachCustomerIsUnique />

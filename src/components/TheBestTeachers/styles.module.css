@@ -52,7 +52,7 @@
 
 .image {
   /* max-height: 8rem; */
-  align-items: left;
+  align-items: left; 
   justify-content: left;
 }
 
