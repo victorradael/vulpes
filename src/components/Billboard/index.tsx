@@ -8,26 +8,25 @@ const Billboard = () => {
       <div className={styles.image} />
 
       <div className={styles.content}>
-        <div>
-          <Image
-            src={fullLogo}
-            alt="Logo Vulpes Idiomas"
-            className={styles.logo}
-          />
+        <div className={styles.logo}>
+          <Image src={fullLogo} alt="Logo Vulpes Idiomas" />
         </div>
 
-        <div>
-          <p>
-            <b>For Better Future</b>
-          </p>
-          <h1>
-            Best Learning <br /> Opportunities
-          </h1>
+        <div className={styles.text}>
+          <span>
+            <b>100% on-line. Somente para você. </b>
+          </span>
+          <h1>Aprendizado insubstituível.</h1>
 
           <p className={styles.text_bigger}>
-            Our goal is to make online
-            <br /> education work for everyone
+            Nosso objetivo é construir a expressão no mundo. <br />
+            Com você, onde você estiver.
           </p>
+          <div className={styles.button_box}>
+            <a className={styles.button} href="#em_breve">
+              Em breve
+            </a>
+          </div>
         </div>
       </div>
     </div>

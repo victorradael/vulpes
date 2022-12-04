@@ -22,4 +22,5 @@
   margin-left: 2rem;
   font-weight: bold;
   color: var(--text-light-color);
+  display: none;
 }

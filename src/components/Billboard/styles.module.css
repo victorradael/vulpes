@@ -2,8 +2,8 @@
 
 .container {
   display: grid;
-  grid-template-columns: 3fr 3fr;
-  max-width: 90rem;
+  grid-template-columns: 2fr 3fr;
+  width: 90rem;
   min-height: 85vh;
   background-color: var(--primary-color);
   margin: 2rem 0rem;
@@ -19,53 +19,74 @@
 }
 
 .logo {
-  width: 2rem;
-  height: 2rem;
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
 }
 
+.logo span span img {
+  width: 100rem;
+
+}
 
 .content {
   display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 8rem 0;
+}
+
+.content .text {
+  display: flex;
+  flex: 1;
   width: 100%;
 
-  max-width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0rem 6rem;
 
-  padding: 0rem 30rem;
-  overflow: hidden;
+
 }
 
-.content h1,
-.content p {
-  color: var(--text-light-color);
-
-  overflow: hidden;
+.content .text h1 {
+  font-size: 3.1rem;
+  padding: 1rem 0rem;
 }
 
-.container .content h1 {
-  font-size: 5rem;
-  line-height: 7rem;
+.content .text p {
+  font-size: 1.2rem;
 }
 
-.text_bigger {
-  font-size: 1.8rem;
+.button_box {
+  width: 100%;
+  padding-top: 2rem;
 }
 
 .button {
-  display: flex;
-  padding: 1rem 2rem;
-
-  align-items: center;
-  justify-content: center;
-
-  border-radius: 0.4rem;
-
   background-color: var(--secondary-color);
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  cursor: progress;
 
-  cursor: pointer;
+  transition: 1s;
 }
 
-.button p {
-  margin: 0;
-  padding: 0;
+.button:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 1200px)  {
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    /* margin: 0; */
+    height: 0;
+    
+  }
+  .image {
+    display: none;
+  }
 }
