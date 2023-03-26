@@ -2,7 +2,7 @@ import './styles.module.css';
 import styles from './styles.module.css';
 import CardForm from '../../components/CardForm';
 
-const Header = () => {
+const Thumbnail = () => {
   return (
     <div className={styles.view}>
       <CardForm />
@@ -10,4 +10,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Thumbnail;
