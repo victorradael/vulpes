@@ -43,3 +43,34 @@
 .small_text {
     color: var(--text-dark-color)
 }
+
+@media (max-width: 800px) {
+    .titulo {
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .input,
+    .button {
+        padding: .8rem;
+    }
+
+    .input::placeholder {
+        font-size: .8rem;
+    }
+
+    .input:focus {
+        border-color: var(--text-dark-color);
+        box-shadow: 0 0 5px var(--text-dark-color);
+    }
+
+    .button {
+        font-size: .8rem;
+        padding: .9rem .8rem;
+    }
+
+    .small_text {
+        font-size: .8rem;
+    }
+}
