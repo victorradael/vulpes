@@ -36,7 +36,7 @@ const CardForm = () => {
                 placeholder='E-mail'
                 className={styles.input}
             />
-            <Button href="mailto:victorradael@gmail.com?subject=Assunto do email&body='Conteúdo do email'" className={styles.button}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
+            <Button href="mailto:xpx@xpx.com?subject=Assunto do email&body='Conteúdo do email'" className={styles.button}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
             <p className={styles.small_text}><b>10 DE ABRIL (SEGUNDA-FEIRA), ÀS 20H <br />BUSINESSCLASS 100% ONLINE E GRATUITA</b></p>
         </div>
     );
