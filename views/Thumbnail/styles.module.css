@@ -1,0 +1,41 @@
+.view {
+    background: transparent url('../../public/DESKTOP/BG-01.jpg') 0% 0% no-repeat padding-box;
+    width: 120rem;
+    height: 100vh;
+    padding: 0;
+    padding-right: 50rem;
+    margin: 0;
+}
+
+@media (max-width: 1400px) {
+    .view {
+        padding-right: 30rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .view {
+        padding-right: 20rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .view {
+        padding-right: 10rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .view {
+        padding-right: 9rem;
+        background-position: -3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .view {
+        padding-right: 0;
+        background-position: -20rem 40rem;
+        height: 90rem;
+    }
+}

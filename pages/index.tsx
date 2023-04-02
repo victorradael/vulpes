@@ -1,3 +1,19 @@
-import LandingPage from "../src/pages/LandingPage";
+import type { NextPage } from "next";
+import Head from 'next/head'
+import ContentContainer from "../views/Container";
+import Header from "../views/Thumbnail";
 
-export default LandingPage;
+
+const LandingPage: NextPage = () => {
+    return (
+        <ContentContainer>
+            <Head>
+                <title>Vulpes Business Class</title>
+                <link rel="shortcut icon" href="/FAVICON.png" />
+            </Head>
+            <Header />
+        </ContentContainer>
+    );
+};
+
+export default LandingPage

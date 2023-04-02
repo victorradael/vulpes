@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #854140;
-  --light-primary-color: rgba(133, 65, 64, 0.7);
   --text-light-color: #fff6f4;
-  --secondary-color: #d28e7a;
-  --background-color: #897170;
-  --transparent-background-color: rgba(137, 113, 112, 0.3);
+  --text-dark-color: #003049;
+  --gradient-red: transparent linear-gradient(180deg, #C1121F 0%, #9F1D27 100%) 0% 0% no-repeat padding-box;
+  --gradient-red-hover: transparent linear-gradient(180deg, #C1121F 70%, #9F1D27 100%) 0% 0% no-repeat padding-box;
+  --gradient-blue: transparent linear-gradient(180deg, #11628D 0%, #003049 100%) 0% 0% no-repeat padding-box;
+  --placeholder: #B9B9B9;
 }
