@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Toast from 'react-bootstrap/Toast';
 import Image from 'next/image';
+import Link from 'next/link';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './styles.module.css';
@@ -61,7 +62,7 @@ const CardForm = () => {
                 />
                 <div className={styles.line}>
                     <input className={styles.check} type="checkbox" required name="LGPD" onChange={handleCheckboxChange} checked={lgpd} />
-                    <p className={styles.small_text}>Estou de acordo com <a href="/politica-privacidade"><strong>Política de Privacidade</strong></a> da Vulpes Idiomas</p>
+                    <p className={styles.small_text}>Estou de acordo com <Link href="/politica-privacidade"><strong>Política de Privacidade</strong></Link> da Vulpes Idiomas</p>
                 </div>
 
                 <Button type='submit' className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
