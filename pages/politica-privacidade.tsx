@@ -2,10 +2,11 @@ import type { NextPage } from "next";
 import Image from 'next/image';
 import Link from 'next/link';
 import img from '../public/LOGO_EVENTO.png';
+import Container from "../views/Container";
 
 const LandingPage: NextPage = () => {
     return (
-        <>
+        <Container>
             <Link href="/">
                 <Image
                     src={img}
@@ -54,7 +55,7 @@ const LandingPage: NextPage = () => {
             </ul>
             <p>Reservamos o prazo de 5 dias &uacute;teis para lhe responder sobre qualquer contato referente aos seus dados pessoais, podendo este prazo ser estendido em per&iacute;odo de festas, feriados prolongados, recesso e f&eacute;rias coletivas.</p>
             <p ><br /><em> Esta pol&iacute;tica de Privacidade foi atualizada em 02/04/2023 as 21:03<em> </em></em></p>
-        </>
+        </Container>
     );
 };
 
