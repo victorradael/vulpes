@@ -4,7 +4,7 @@ import CardForm from '../../components/CardForm';
 
 const Thumbnail = () => {
   return (
-    <div className={styles.view}>
+    <div className={styles.container} id='header'>
       <CardForm />
     </div >
   );
