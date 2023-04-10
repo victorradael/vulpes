@@ -1,0 +1,55 @@
+.container {
+    background: transparent url('../../public/DESKTOP/BG-02.jpg') 0% 0% no-repeat padding-box;
+    width: 120rem;
+    padding: 0;
+    padding-right: 50rem;
+    margin: 0;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        padding-right: 30rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding-right: 18rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    .container {
+        padding-right: 20rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        padding-right: 10rem;
+        align-items: center;
+        justify-content: flex-start;
+        background-position: 20rem 0rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        align-items: center;
+        justify-content: flex-start;
+        background: transparent url('../../public/TABLET/BG-02---TABLET.jpg') 0% 0% no-repeat padding-box;
+        background-position: 35rem -20rem;
+        height: 60rem;
+        padding-right: 9rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+
+        padding: 0;
+        background-position: 40rem -20rem;
+        height: 60rem;
+
+    }
+}

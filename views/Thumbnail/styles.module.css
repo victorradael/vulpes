@@ -33,9 +33,10 @@
 
 @media (max-width: 600px) {
     .container {
+        background: transparent url('../../public/MOBILE/BG-01-CELULAR.jpg') 0% 0% no-repeat padding-box;
         margin-left: 2rem;
         padding-right: 0;
-        background-position: -20rem 40rem;
+        background-position: 20rem -25rem;
         height: 90rem;
     }
 }
