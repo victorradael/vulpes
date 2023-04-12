@@ -1,5 +1,6 @@
 .form_box {
     margin-top: 8rem;
+    margin-bottom: 4rem;
     background-color: tras;
     display: inline;
     padding: 1rem;
@@ -66,7 +67,7 @@
 @media (max-width: 800px) {
     .titulo {
         margin-top: 2rem;
-        font-size: 1.6rem;
+        font-size: clamp(1.4rem, 4vw, 1.6rem);
         line-height: 3rem;
     }
 

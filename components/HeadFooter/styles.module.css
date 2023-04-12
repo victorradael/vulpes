@@ -2,13 +2,13 @@
     width: 60%;
     background-color: var(--gradient-blue);
     padding: 7rem 1rem 5rem;
-    font-weight: bolder;
     font-size: 1.6rem;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     flex-direction: row;
 
+}
+
+.paragraph {
+    text-align: start;
 }
 
 .button {
@@ -19,11 +19,11 @@
     width: 100%;
     background: var(--gradient-red);
     border: none;
+    font-weight: bolder;
 }
 
 .button:hover {
     background: var(--gradient-red-hover);
-
 }
 
 @media (max-width: 1400px) {
@@ -36,14 +36,16 @@
         margin: 0;
         margin-top: 3rem;
     }
+
+    .paragraph {
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px) {
     .container {
-
         flex-direction: column;
         width: 20%;
         font-size: 1.2rem;
-
     }
 }

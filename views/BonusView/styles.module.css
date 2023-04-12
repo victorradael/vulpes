@@ -1,0 +1,46 @@
+.container {
+    background-color: white;
+    width: 120rem;
+    height: 52rem;
+    position: relative;
+}
+
+.float__card {
+    position: absolute;
+    top: -1.6rem;
+    background-color: #0f0f0f;
+    width: 120rem;
+    padding-block: 1rem;
+}
+
+.slider__card {
+    background-color: #0f0f0f;
+    padding-block: 1.4rem;
+    position: absolute;
+    animation: scroll 38s linear infinite;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+@keyframes scroll {
+    0% {left: 0;}
+	100% {left: -118%;}
+}
+
+.box__card {
+    width: 25rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.box__card__small {
+    width: 16rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.box__icon {
+    color: #FFCB0C;
+    font-size: 1.2rem;
+}

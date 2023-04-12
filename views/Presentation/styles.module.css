@@ -6,6 +6,28 @@
     margin: 0;
 }
 
+.full__container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.tip__card {
+    position: absolute;
+    top: -1.6rem;
+    background: var(--gradient-blue);
+    width: 848px;
+    height: 251px;
+    border-radius: 1rem;
+    color: white;
+    font-size: clamp(12px, 3vw, 24px);
+}
+
+.tip__card__paragraph {
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
 @media (max-width: 1400px) {
     .container {
         padding-right: 30rem;
@@ -31,6 +53,10 @@
         justify-content: flex-start;
         background-position: 20rem 0rem;
     }
+
+    .tip__card {
+        width: 90vw;
+    }
 }
 
 @media (max-width: 800px) {
@@ -46,10 +72,12 @@
 
 @media (max-width: 600px) {
     .container {
-
         padding: 0;
         background-position: 40rem -20rem;
         height: 60rem;
+    }
 
+    .tip__card {
+        height: 151px;
     }
 }
