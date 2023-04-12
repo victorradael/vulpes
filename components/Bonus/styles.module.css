@@ -56,9 +56,37 @@
 }
 
 .card__title__words {
-    font-size: 1.2rem;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
 }
 
 .card__paragraph {
-    font-size: 1rem;
+    font-size: clamp(0.8rem, 2vw, 1rem);
+}
+
+@media (max-width: 1300px) {
+    .cards__group {
+        align-content: center;
+    }
+    
+    .card {
+        width: 36%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cards__group {
+        height: 30rem;
+    }
+
+    .card {
+        width: 24%;
+        padding-inline: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: 20%;
+        padding-inline: 2rem;
+    }
 }

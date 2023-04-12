@@ -9,7 +9,7 @@
 .title {
     border-radius: 1rem;
     color: white;
-    font-size: clamp(12px, 3vw, 24px);
+    font-size: clamp(1rem, 3vw, 1.5rem);
     font-weight: 600;
     text-align: center;
     margin-top: 5rem;
@@ -29,7 +29,27 @@
     width: 48%;
     font-weight: bold;
     color: var(--text-dark-color);
+    font-size: clamp(0.7rem, 2vw, 1rem);
     border-radius: .5rem;
     padding-block: .8rem;
     padding-inline: 4rem;
+}
+
+@media (max-width: 1300px) {
+    .cards__group {
+        height: 30rem;
+        align-content: center;
+    }
+
+    .card {
+        width: 38%;
+        margin-inline: 8px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: 28%;
+        padding-inline: 2rem;
+    }
 }

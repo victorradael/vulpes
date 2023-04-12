@@ -2,4 +2,16 @@
     background: transparent url('../../public/DESKTOP/BG-03.jpg') 0% 0% no-repeat padding-box;
     width: 120rem;
     height: 48rem;
+    position: relative;
+}
+
+.image__container {
+    position: absolute;
+    bottom: 4rem;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        height: 55rem;
+    }
 }
