@@ -4,6 +4,8 @@ import ContentContainer from "../views/Container";
 import Header from "../views/Thumbnail";
 import Footer from "../views/Footer";
 import Presentation from "../views/Presentation";
+import LearnCardsView from "../views/LearnCards";
+import BonusView from "../views/BonusView";
 
 
 const LandingPage: NextPage = () => {
@@ -15,6 +17,8 @@ const LandingPage: NextPage = () => {
             </Head>
             <Header />
             <Presentation />
+            <LearnCardsView />
+            <BonusView />
             <Footer />
         </ContentContainer>
     );

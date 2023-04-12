@@ -37,7 +37,6 @@ const CardForm = () => {
     };
 
     return (
-
         <div className={styles.form_box}>
             <Image
                 src={img}
