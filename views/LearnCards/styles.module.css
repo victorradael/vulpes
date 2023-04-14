@@ -1,7 +1,7 @@
 .container {
     background: transparent url('../../public/DESKTOP/BG-03.jpg') 0% 0% no-repeat padding-box;
     width: 120rem;
-    height: 48rem;
+    height: 44rem;
     position: relative;
 }
 
@@ -12,6 +12,19 @@
 
 @media (max-width: 1300px) {
     .container {
+        height: 50rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
         height: 55rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        height: 76rem;
+        background-size: auto 80rem;
     }
 }

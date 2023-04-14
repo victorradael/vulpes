@@ -20,7 +20,10 @@
     height: 251px;
     border-radius: 1rem;
     color: white;
-    font-size: clamp(12px, 3vw, 24px);
+    font-size: clamp(.625rem, 3vw, 1.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .tip__card__paragraph {
@@ -63,18 +66,19 @@
     .container {
         align-items: center;
         justify-content: flex-start;
-        background: transparent url('../../public/TABLET/BG-02---TABLET.jpg') 0% 0% no-repeat padding-box;
-        background-position: 35rem -20rem;
-        height: 60rem;
+        height: 70rem;
         padding-right: 9rem;
+        background: transparent url('../../public/TABLET/BG-02---TABLET.jpg') 0% 0% no-repeat padding-box;
+        background-position: 35rem -18rem;
+        background-size: auto 100rem;
     }
 }
 
 @media (max-width: 600px) {
     .container {
         padding: 0;
-        background-position: 40rem -20rem;
-        height: 60rem;
+        height: 46rem;
+        background-position: 35rem -45rem;
     }
 
     .tip__card {

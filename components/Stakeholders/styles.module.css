@@ -1,0 +1,119 @@
+.container {
+    background-color: tras;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100%;
+    width: 76vw;
+}
+
+.title {
+    border-radius: 1rem;
+    color: white;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-weight: 600;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.cards__group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.card {
+    margin-bottom: 0;
+}
+
+.card__stakeholder__yes {
+    background-color: white;
+    height: 24rem;
+    color: var(--text-dark-color);
+    font-size: clamp(0.7rem, 2vw, 1rem);
+    border-radius: .5rem;
+    padding-block: .8rem;
+    padding-inline: 4rem;
+    margin-inline: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.card__stakeholder__no {
+    border: 2px solid white;
+    height: 24rem;
+    color: white;
+    font-size: clamp(0.7rem, 2vw, 1rem);
+    border-radius: .5rem;
+    padding-block: .8rem;
+    padding-inline: 4rem;
+    margin-inline: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.break__line {
+    width: 100%;
+    margin-block: 0.4rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.card__title__yes, .card__title__no {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.button {
+    border-radius: .1rem;
+    padding: .9rem;
+    width: 27rem;
+    max-width: 85%;
+    background: var(--gradient-red);
+    border: none;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 1400px) {
+    .card__stakeholder__yes,
+    .card__stakeholder__no {
+        height: 30rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cards__group {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card__stakeholder__yes,
+    .card__stakeholder__no {
+        padding-block: 2rem;
+    }
+
+    
+    .button {
+        font-size: clamp(.5rem, 2vw, .8rem);
+        padding: .9rem .8rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .cards__group {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card__stakeholder__yes,
+    .card__stakeholder__no {
+        padding-inline: 2rem;
+    }
+}

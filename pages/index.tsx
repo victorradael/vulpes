@@ -6,6 +6,7 @@ import Footer from "../views/Footer";
 import Presentation from "../views/Presentation";
 import LearnCardsView from "../views/LearnCards";
 import BonusView from "../views/BonusView";
+import StakeholdersView from "../views/Stakeholders";
 
 
 const LandingPage: NextPage = () => {
@@ -19,6 +20,7 @@ const LandingPage: NextPage = () => {
             <Presentation />
             <LearnCardsView />
             <BonusView />
+            <StakeholdersView />
             <Footer />
         </ContentContainer>
     );

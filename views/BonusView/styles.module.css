@@ -1,16 +1,17 @@
 .container {
     background-color: white;
     width: 120rem;
-    height: 52rem;
+    height: 80rem;
     position: relative;
 }
 
 .float__card {
     position: absolute;
     top: -1.6rem;
-    background-color: #0f0f0f;
     width: 120rem;
-    padding-block: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .slider__card {
@@ -25,7 +26,7 @@
 
 @keyframes scroll {
     0% {left: 0;}
-	100% {left: -118%;}
+	100% {left: -119%;}
 }
 
 .box__card {
@@ -41,6 +42,33 @@
 }
 
 .box__icon {
-    color: #FFCB0C;
-    font-size: 1.2rem;
+    color: var(--text-blue-color);
+    font-size: 1.4rem;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        height: fit-content;
+    }
+}
+
+@media (max-width: 700px) {
+    .slider__card {
+        padding-block: .8rem;
+    }
+
+    @keyframes scroll {
+        0% {left: 0;}
+        100% {left: -102.5%;}
+    }
+
+    .box__card {
+        font-size: .6rem;
+        width: 21rem;
+    }
+    
+    .box__card__small {
+        font-size: .6rem;
+        width: 12rem;
+    }
 }
