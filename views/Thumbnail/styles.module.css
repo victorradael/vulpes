@@ -1,5 +1,6 @@
 .container {
     background: transparent url('../../public/DESKTOP/BG-01.jpg') 0% 0% no-repeat padding-box;
+    height: 55rem;
     width: 120rem;
     padding: 0;
     padding-right: 50rem;

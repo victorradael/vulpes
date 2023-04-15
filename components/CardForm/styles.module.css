@@ -16,7 +16,13 @@
     max-width: 85%;
 }
 
-.privacy__link :hover {
+.break__line {
+    width: 86%;
+    margin-block: 0.4rem;
+    border-bottom: 1px solid #cacaca;
+}
+
+.privacy__link:hover {
     color: var(--text-blue-color);
     cursor: pointer;
 }
@@ -59,9 +65,27 @@
 }
 
 
-.small_text {
+.small_text,
+.small_text_agree {
     color: var(--text-dark-color);
     width: 26rem;
+}
+
+.bonus__area {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.each__bonus {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    font-size: 1.4rem;
+    margin-right: 0.4rem;
 }
 
 .toast {
@@ -95,16 +119,30 @@
         padding: .9rem .8rem;
     }
 
-    .small_text {
+    .small_text,
+    .small_text_agree {
         font-size: .8rem;
         width: 20rem;
+    }
+
+    .icons {
+        font-size: 1rem;
+    }
+
+    .bonus {
+        font-size: .8rem;
     }
 }
 
 @media (max-width: 600px) {
+    .form_box {
+        padding-left: 0;
+    }
+
     .titulo {
         font-size: 0.9rem;
         line-height: 1.2rem;
+        margin-top: 1rem;
     }
 
     .form_box {
@@ -123,8 +161,23 @@
     }
 
     .small_text {
-        font-size: .6rem;
         width: 14rem;
+        font-size: .5rem;
+        text-align: center;
+    }
+    
+    .small_text_agree {
+        width: 11rem;
+        font-size: .5rem;
+        text-align: center;
+    }
+
+    .icons {
+        font-size: .9rem;
+    }
+
+    .bonus {
+        font-size: .6rem;
     }
 }
 
