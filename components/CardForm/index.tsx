@@ -7,6 +7,8 @@ import Button from 'react-bootstrap/Button';
 import './styles.module.css';
 import styles from './styles.module.css';
 import img from '../../public/LOGO_EVENTO.png';
+import { GrCertificate } from "react-icons/gr";
+import { FaWhatsapp } from "react-icons/fa";
 
 const CardForm = () => {
     const [showToast, setShowToast] = useState(false);
@@ -61,11 +63,23 @@ const CardForm = () => {
                 />
                 <div className={styles.line}>
                     <input className={styles.check} type="checkbox" required name="LGPD" onChange={handleCheckboxChange} checked={lgpd} />
-                    <p className={styles.small_text}>Estou de acordo com <Link href="/politica-privacidade"><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></Link> da Vulpes Idiomas</p>
+                    <p className={styles.small_text_agree}>Estou de acordo com a <Link href="/politica-privacidade"><a target="_blank" rel="noopener noreferrer"><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></a></Link> da Vulpes Idiomas</p>
                 </div>
 
                 <Button type='submit' className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
-                <p className={styles.small_text}><b>10 DE ABRIL (SEGUNDA-FEIRA), ÀS 20H <br />BUSINESSCLASS 100% ONLINE E GRATUITA</b></p>
+                <p className={styles.small_text}><b>10 DE ABRIL, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></p>
+                <div className={styles.break__line}></div>
+
+                <div className={styles.bonus__area}>
+                    <div className={styles.each__bonus}>
+                        <GrCertificate className={styles.icons} />
+                        <span className={styles.bonus}>Certificado</span>
+                    </div>
+                    <div className={styles.each__bonus}>
+                        <FaWhatsapp className={styles.icons} />
+                        <span className={styles.bonus}>Grupo no Whatsapp</span>
+                    </div>
+                </div>
             </Form>
 
             <Toast show={showToast} onClose={() => setShowToast(false)} autohide delay={3000} className={styles.toast}>
