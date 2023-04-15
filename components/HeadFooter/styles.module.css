@@ -12,14 +12,14 @@
 }
 
 .button {
-    margin-left: 3rem;
     border-radius: .1rem;
     padding: .9rem;
-    margin-bottom: 1rem;
-    width: 100%;
+    width: 27rem;
+    max-width: 85%;
     background: var(--gradient-red);
     border: none;
-    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .button:hover {
@@ -32,13 +32,25 @@
         width: 30%;
     }
 
-    .button {
-        margin: 0;
-        margin-top: 3rem;
-    }
-
     .paragraph {
         text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .button {
+        font-size: clamp(.5rem, 2vw, .8rem);
+    }
+}
+
+@media (max-width: 760px) {
+    .paragraph {
+        font-size: 1.2rem;
+        width: 80vw;
+    }
+
+    .button {
+        width: 60vw;
     }
 }
 

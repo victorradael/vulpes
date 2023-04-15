@@ -55,37 +55,35 @@
 
 @media (max-width: 800px) {
     .container {
-        width: 30%;
+        width: 80vw;
         margin-right: -10rem;
         padding: 3rem 1rem 3rem 1rem;
     }
 
     .title {
-        font-size: 1.4rem;
-        line-height: 2rem;
-    }
-
-    .button {
-        padding: .8rem;
-    }
-
-    .button {
-        font-size: .8rem;
-        padding: .9rem .8rem;
+        font-size: clamp(.9rem, 3vw, 1.4rem);
+        line-height: 5vw;
     }
 
     .paragraph {
-        font-size: 0.9rem;
+        font-size: clamp(0.6rem, 2vw, 0.9rem);
         padding: .5rem;
     }
-
+    
+    .button {
+        font-size: clamp(.5rem, 2vw, .8rem);
+        padding: .9rem .8rem;
+    }
 }
 
 @media (max-width: 600px) {
     .container {
-        width: 25%;
         margin-top: 10rem;
         margin-right: -2rem;
         padding: 0rem 1rem 3rem 1rem;
+    }
+
+    .paragraph {
+        margin-bottom: 0;
     }
 }

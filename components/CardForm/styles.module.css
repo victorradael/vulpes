@@ -16,6 +16,11 @@
     max-width: 85%;
 }
 
+.privacy__link :hover {
+    color: var(--text-blue-color);
+    cursor: pointer;
+}
+
 .check {
     margin-top: 0.4rem;
     margin-right: 0.4rem;
@@ -51,12 +56,12 @@
 
 .button:hover {
     background: var(--gradient-red-hover);
-
 }
 
 
 .small_text {
-    color: var(--text-dark-color)
+    color: var(--text-dark-color);
+    width: 26rem;
 }
 
 .toast {
@@ -92,5 +97,34 @@
 
     .small_text {
         font-size: .8rem;
+        width: 20rem;
     }
 }
+
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+    }
+
+    .form_box {
+        margin-top: 2rem;
+        width: 15%;
+    }
+
+    .input,
+    .button {
+        width: 15rem;
+    }
+
+    .button {
+        font-size: 0.6rem;
+        line-height: 1.2rem;
+    }
+
+    .small_text {
+        font-size: .6rem;
+        width: 14rem;
+    }
+}
+

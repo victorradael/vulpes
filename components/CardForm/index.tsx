@@ -47,7 +47,7 @@ const CardForm = () => {
             <h1 className={styles.titulo}>
                 Para você, não basta saber <br />inglês. Você precisa falar inglês <br />com clareza e excelência.
             </h1>
-            <p className={styles.small_text}>Aqui, você encontra inglês para negócios, na prática, <br /><b>à altura do profissional que você é.</b></p>
+            <p className={styles.small_text}>Aqui, você encontra inglês para negócios, na prática, <b>à altura do profissional que você é.</b></p>
             <Form onSubmit={handleSubmit}>
                 <Form.Control
                     type="text" value={name} onChange={(event) => setName(event.target.value)}
@@ -61,7 +61,7 @@ const CardForm = () => {
                 />
                 <div className={styles.line}>
                     <input className={styles.check} type="checkbox" required name="LGPD" onChange={handleCheckboxChange} checked={lgpd} />
-                    <p className={styles.small_text}>Estou de acordo com <Link href="/politica-privacidade"><strong>Política de Privacidade</strong></Link> da Vulpes Idiomas</p>
+                    <p className={styles.small_text}>Estou de acordo com <Link href="/politica-privacidade"><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></Link> da Vulpes Idiomas</p>
                 </div>
 
                 <Button type='submit' className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
