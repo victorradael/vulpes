@@ -13,10 +13,10 @@ const BonusSession = () => {
             <div className={styles.cards__group}>
                 <div className={styles.card}>
                     <span className={styles.people__brief}>
-                        "Eu ameii
+                    &quot;Eu ameii
                         Foi muito bom interagir com outras pessoas
                         E ajuda desenvolver mais a conversação
-                        Brilharam muito com esse projeto🥰"
+                        Brilharam muito com esse projeto🥰&quot;
                     </span>
                     <div className={styles.user__card}>
                         <div className={styles.image__circle}>
@@ -37,7 +37,7 @@ const BonusSession = () => {
 
                 <div className={styles.card}>
                     <span className={styles.people__brief}>
-                        "Gostei muito, de verdade. Várias dicas sobre como se comportar em uma entrevista, ao se fazer uma conexão profissional... Palavras e expressões chaves para manter o diálogo e profissionalismo durante o contato com stakeholders"
+                    &quot;Gostei muito, de verdade. Várias dicas sobre como se comportar em uma entrevista, ao se fazer uma conexão profissional... Palavras e expressões chaves para manter o diálogo e profissionalismo durante o contato com stakeholders&quot;
                     </span>
                     <div className={styles.user__card}>
                         <div className={styles.image__circle}>
@@ -58,7 +58,7 @@ const BonusSession = () => {
 
                 <div className={styles.card}>
                     <span className={styles.people__brief}>
-                        "Primeiramente parabenizo a Vulpes pela iniciativa do Business Club. O evento estava bem organizado e dinâmico. O mais interessante foi a troca entre pessoas de diferentes áreas, além de treinar o ouvindo e a mente a entender diferentes sotaques. Acredito que trazer nos próximos eventos alguém externo, de alguma empresa/ empreender seria bem bacana! Ansiosa para o próximo evento!"
+                    &quot;Primeiramente parabenizo a Vulpes pela iniciativa do Business Club. O evento estava bem organizado e dinâmico. O mais interessante foi a troca entre pessoas de diferentes áreas, além de treinar o ouvindo e a mente a entender diferentes sotaques. Acredito que trazer nos próximos eventos alguém externo, de alguma empresa/ empreender seria bem bacana! Ansiosa para o próximo evento!&quot;
                     </span>
                     <div className={styles.user__card}>
                         <div className={styles.image__circle}>
@@ -79,7 +79,7 @@ const BonusSession = () => {
 
                 <div className={styles.card}>
                     <span className={styles.people__brief}>
-                        "Olá, eu amei o business club. Confesso que fiquei bem tímida e com medo de falar. Mas vi pessoas de vários níveis de inglês na sala e me senti melhor… tinham umas mais avançadas e outras menos em relação a mim. Além disso foram tópicos importantíssimos porque são assuntos realmente interessantes em um dia a dia de trabalho, de uma empresa e de uma conversa mais intelectual. Faria mil vezes!!!"
+                    &quot;Olá, eu amei o business club. Confesso que fiquei bem tímida e com medo de falar. Mas vi pessoas de vários níveis de inglês na sala e me senti melhor… tinham umas mais avançadas e outras menos em relação a mim. Além disso foram tópicos importantíssimos porque são assuntos realmente interessantes em um dia a dia de trabalho, de uma empresa e de uma conversa mais intelectual. Faria mil vezes!!!&quot;
                     </span>
                     <div className={styles.user__card}>
                         <div className={styles.image__circle}>
@@ -100,7 +100,7 @@ const BonusSession = () => {
 
                 <div className={styles.card}>
                     <span className={styles.people__brief}>
-                        "O Business Club foi maravilhoso, foi minha primeira vez conversando em inglês e eu me senti a vontade para isso."
+                    &quot;O Business Club foi maravilhoso, foi minha primeira vez conversando em inglês e eu me senti a vontade para isso.&quot;
                     </span>
                     <div className={styles.user__card}>
                         <div className={styles.image__circle}>
