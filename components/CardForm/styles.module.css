@@ -1,10 +1,18 @@
+.container {
+    width: 86rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .form_box {
     margin-top: 8rem;
     margin-bottom: 4rem;
-    background-color: tras;
-    display: inline;
     padding: 1rem;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .line {
@@ -12,8 +20,6 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-
-    max-width: 85%;
 }
 
 .break__line {
@@ -52,7 +58,6 @@
     padding: .9rem;
     margin-bottom: 1rem;
     width: 100%;
-    max-width: 85%;
 }
 
 .button {
@@ -64,17 +69,34 @@
     background: var(--gradient-red-hover);
 }
 
+.formulario {
+    width: 100%;
+}
 
-.small_text,
-.small_text_agree {
+.center__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small_text {
     color: var(--text-dark-color);
     width: 26rem;
 }
 
+.small_text_data {
+    text-align: center;
+    color: var(--text-dark-color);
+}
+
+.small_text_agree {
+    color: var(--text-dark-color);
+}
+
 .bonus__area {
-    width: 80%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -93,7 +115,17 @@
     max-width: 85%
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1400px) {
+    .container {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        justify-content: center;
+    }
+
     .titulo {
         margin-top: 2rem;
         font-size: clamp(1.4rem, 4vw, 1.6rem);
@@ -119,10 +151,17 @@
         padding: .9rem .8rem;
     }
 
-    .small_text,
-    .small_text_agree {
-        font-size: .8rem;
+    .small_text {
         width: 20rem;
+        font-size: .8rem;
+    }
+    
+    .small_text_data {
+        font-size: .8rem;
+    }
+
+    .small_text_agree {
+        width: 100%;
     }
 
     .icons {
@@ -136,18 +175,13 @@
 
 @media (max-width: 600px) {
     .form_box {
-        padding-left: 0;
+        margin-top: 2rem;
     }
 
     .titulo {
         font-size: 0.9rem;
         line-height: 1.2rem;
         margin-top: 1rem;
-    }
-
-    .form_box {
-        margin-top: 2rem;
-        width: 15%;
     }
 
     .input,
@@ -163,13 +197,15 @@
     .small_text {
         width: 14rem;
         font-size: .5rem;
-        text-align: center;
+    }
+    
+    .small_text_data {
+        font-size: .5rem;
     }
     
     .small_text_agree {
-        width: 11rem;
+        width: 14rem;
         font-size: .5rem;
-        text-align: center;
     }
 
     .icons {

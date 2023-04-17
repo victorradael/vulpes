@@ -1,6 +1,7 @@
 .container {
+    width: 100vw;
     background: transparent url('../../public/DESKTOP/BG-04.jpg') 0% 0% no-repeat padding-box;
     background-size: cover;
-    width: 120rem;
+    background-position: center;
     height: fit-content;
 }

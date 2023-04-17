@@ -7,7 +7,9 @@ const HeadFooter = () => {
 
         <div className={styles.container}>
             <div className={styles.paragraph}>Aprenda o inglês que realmente funciona, à altura dos seus objetivos e dos seus negócios.</div>
-            <Button href='#header' className={styles.button}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
+            <div className={styles.centralize__button}>
+                <Button href='#header' className={styles.button}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
+            </div>
         </div>
     );
 };
