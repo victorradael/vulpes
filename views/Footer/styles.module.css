@@ -2,5 +2,5 @@
     background: var(--gradient-blue);
     color: var(--text-light-color);
     padding: 0rem;
-    width: 120rem;
+    width: 100vw;
 }

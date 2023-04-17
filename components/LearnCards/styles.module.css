@@ -99,18 +99,17 @@
 @media (max-width: 1000px) {
     .card {
         height: 15rem;
-        width: 28%;
-        padding-inline: 2rem;
+        width: 34%;
+        padding-inline: 1rem;
     }
 }
 @media (max-width: 700px) {
-    
     .cards__group {
         flex-wrap: nowrap;
     }
-    
+
     .card {
-        height: 13rem;
-        padding-inline: 1rem;
+        height: 16rem;
+        width: 52%;
     }
 }

@@ -1,15 +1,17 @@
-.container {
-    background: transparent url('../../public/DESKTOP/BG-02.jpg') 0% 0% no-repeat padding-box;
-    width: 120rem;
-    padding: 0;
-    padding-right: 50rem;
-    margin: 0;
-}
-
 .full__container {
     display: flex;
     justify-content: center;
     position: relative;
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    background: transparent url('../../public/DESKTOP/BG-02.jpg') 0% 0% no-repeat padding-box;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
 .tip__card {
@@ -31,32 +33,7 @@
     font-weight: 600;
 }
 
-@media (max-width: 1400px) {
-    .container {
-        padding-right: 30rem;
-    }
-}
-
-@media (max-width: 1200px) {
-    .container {
-        padding-right: 18rem;
-    }
-}
-
-@media (max-width: 1080px) {
-    .container {
-        padding-right: 20rem;
-    }
-}
-
 @media (max-width: 900px) {
-    .container {
-        padding-right: 10rem;
-        align-items: center;
-        justify-content: flex-start;
-        background-position: 20rem 0rem;
-    }
-
     .tip__card {
         width: 90vw;
     }
@@ -67,21 +44,8 @@
         align-items: center;
         justify-content: flex-start;
         height: 70rem;
-        padding-right: 9rem;
         background: transparent url('../../public/TABLET/BG-02---TABLET.jpg') 0% 0% no-repeat padding-box;
-        background-position: 35rem -18rem;
-        background-size: auto 100rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .container {
-        padding: 0;
-        height: 46rem;
-        background-position: 35rem -45rem;
-    }
-
-    .tip__card {
-        height: 151px;
+        background-size: cover;
+        background-position: center;
     }
 }

@@ -1,5 +1,5 @@
 .container {
-    width: 60%;
+    width: 86rem;
     background-color: var(--gradient-blue);
     padding: 7rem 1rem 5rem;
     font-size: 1.6rem;
@@ -9,6 +9,11 @@
 
 .paragraph {
     text-align: start;
+    width: 100%;
+}
+
+.centralize__button {
+    width: 100%;
 }
 
 .button {
@@ -29,7 +34,7 @@
 @media (max-width: 1400px) {
     .container {
         flex-direction: column;
-        width: 30%;
+        width: 80%;
     }
 
     .paragraph {
@@ -48,16 +53,11 @@
         font-size: 1.2rem;
         width: 80vw;
     }
-
-    .button {
-        width: 60vw;
-    }
 }
 
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
-        width: 20%;
         font-size: 1.2rem;
     }
 }

@@ -1,11 +1,20 @@
 .container {
-    margin-top: 13rem;
+    margin-top: 20rem;
     background-color: tras;
     display: inline;
-    padding: 8rem 1rem 0rem 1rem;
-    width: 52%;
+    width: 86rem;
     box-sizing: border-box;
     overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.reduce__area {
+    width: 37rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .title {
@@ -15,6 +24,13 @@
     letter-spacing: 0px;
     color: var(--text-dark-color);
     opacity: 1;
+}
+
+.centralize__button {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .button {
@@ -30,9 +46,7 @@
 
 .button:hover {
     background: var(--gradient-red-hover);
-
 }
-
 
 .paragraph {
     color: var(--text-dark-color);
@@ -42,22 +56,13 @@
 
 @media (max-width: 1400px) {
     .container {
-        width: 40%;
-    }
-}
-
-@media (max-width: 900px) {
-    .container {
-        padding: 2rem 1rem;
-        width: 30%;
+        width: 80vw;
     }
 }
 
 @media (max-width: 800px) {
     .container {
-        width: 80vw;
-        margin-right: -10rem;
-        padding: 3rem 1rem 3rem 1rem;
+        justify-content: center;
     }
 
     .title {
@@ -69,21 +74,14 @@
         font-size: clamp(0.6rem, 2vw, 0.9rem);
         padding: .5rem;
     }
+
+    .centralize__button {
+        width: 100%;
+    }
     
     .button {
+        width: 80%;
         font-size: clamp(.5rem, 2vw, .8rem);
         padding: .9rem .8rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .container {
-        margin-top: 10rem;
-        margin-right: -2rem;
-        padding: 0rem 1rem 3rem 1rem;
-    }
-
-    .paragraph {
-        margin-bottom: 0;
     }
 }

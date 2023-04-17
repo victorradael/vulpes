@@ -39,53 +39,57 @@ const CardForm = () => {
     };
 
     return (
-        <div className={styles.form_box}>
-            <Image
-                src={img}
-                alt="Logo do evento Vulpes Business Class"
-                width={194}
-                height={72}
-            />
-            <h1 className={styles.titulo}>
-                Para você, não basta saber <br />inglês. Você precisa falar inglês <br />com clareza e excelência.
-            </h1>
-            <p className={styles.small_text}>Aqui, você encontra inglês para negócios, na prática, <b>à altura do profissional que você é.</b></p>
-            <Form onSubmit={handleSubmit}>
-                <Form.Control
-                    type="text" value={name} onChange={(event) => setName(event.target.value)}
-                    placeholder='Nome completo'
-                    className={styles.input}
+        <div className={styles.container}>
+            <div className={styles.form_box}>
+                <Image
+                    src={img}
+                    alt="Logo do evento Vulpes Business Class"
+                    width={194}
+                    height={72}
                 />
-                <Form.Control
-                    type="email" value={email} onChange={(event) => setEmail(event.target.value)}
-                    placeholder='E-mail'
-                    className={styles.input}
-                />
-                <div className={styles.line}>
-                    <input className={styles.check} type="checkbox" required name="LGPD" onChange={handleCheckboxChange} checked={lgpd} />
-                    <p className={styles.small_text_agree}>Estou de acordo com a <Link href="/politica-privacidade"><a target="_blank" rel="noopener noreferrer"><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></a></Link> da Vulpes Idiomas</p>
-                </div>
-
-                <Button type='submit' className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
-                <p className={styles.small_text}><b>10 DE ABRIL, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></p>
-                <div className={styles.break__line}></div>
-
-                <div className={styles.bonus__area}>
-                    <div className={styles.each__bonus}>
-                        <GrCertificate className={styles.icons} />
-                        <span className={styles.bonus}>Certificado</span>
+                <h1 className={styles.titulo}>
+                    Para você, não basta saber <br />inglês. Você precisa falar inglês <br />com clareza e excelência.
+                </h1>
+                <p className={styles.small_text}>Aqui, você encontra inglês para negócios, na prática, <b>à altura do profissional que você é.</b></p>
+                <Form onSubmit={handleSubmit} className={styles.formulario}>
+                    <Form.Control
+                        type="text" value={name} onChange={(event) => setName(event.target.value)}
+                        placeholder='Nome completo'
+                        className={styles.input}
+                    />
+                    <Form.Control
+                        type="email" value={email} onChange={(event) => setEmail(event.target.value)}
+                        placeholder='E-mail'
+                        className={styles.input}
+                    />
+                    <div className={styles.line}>
+                        <input className={styles.check} type="checkbox" required name="LGPD" onChange={handleCheckboxChange} checked={lgpd} />
+                        <p className={styles.small_text_agree}>Estou de acordo com a <Link href="/politica-privacidade"><a target="_blank" rel="noopener noreferrer"><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></a></Link> da Vulpes Idiomas</p>
                     </div>
-                    <div className={styles.each__bonus}>
-                        <FaWhatsapp className={styles.icons} />
-                        <span className={styles.bonus}>Grupo no Whatsapp</span>
+
+                    <Button type='submit' className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
+                    <div className={styles.center__data}>
+                        <span className={styles.small_text_data}><b>10 DE ABRIL, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></span>
+                        <div className={styles.break__line}></div>
                     </div>
-                </div>
-            </Form>
 
-            <Toast show={showToast} onClose={() => setShowToast(false)} autohide delay={3000} className={styles.toast}>
-                <Toast.Body >{message}</Toast.Body>
-            </Toast>
+                    <div className={styles.bonus__area}>
+                        <div className={styles.each__bonus}>
+                            <GrCertificate className={styles.icons} />
+                            <span className={styles.bonus}>Certificado</span>
+                        </div>
+                        <div className={styles.each__bonus}>
+                            <FaWhatsapp className={styles.icons} />
+                            <span className={styles.bonus}>Grupo no Whatsapp</span>
+                        </div>
+                    </div>
+                </Form>
 
+                <Toast show={showToast} onClose={() => setShowToast(false)} autohide delay={3000} className={styles.toast}>
+                    <Toast.Body >{message}</Toast.Body>
+                </Toast>
+
+            </div>
         </div>
     );
 };
