@@ -15,7 +15,7 @@
 }
 
 .slider__card {
-    background-color: #0f0f0f;
+    background-color: var(--black-background);
     padding-block: 1.4rem;
     position: absolute;
     animation: scroll 38s linear infinite;
@@ -46,7 +46,7 @@
     font-size: 1.4rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1080px) {
     .container {
         height: fit-content;
     }

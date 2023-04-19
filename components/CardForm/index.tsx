@@ -64,7 +64,7 @@ const CardForm = () => {
                     />
                     <div className={styles.line}>
                         <input className={styles.check} type="checkbox" required name="LGPD" onChange={handleCheckboxChange} checked={lgpd} />
-                        <p className={styles.small_text_agree}>Estou de acordo com a <Link href="/politica-privacidade"><a target="_blank" rel="noopener noreferrer"><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></a></Link> da Vulpes Idiomas</p>
+                        <p className={styles.small_text_agree}>Estou de acordo com a <Link href="/politica-privacidade"><a target="_blank" rel="noopener noreferrer" className={styles.remove__style}><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></a></Link> da Vulpes Idiomas</p>
                     </div>
 
                     <Button type='submit' className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
@@ -80,7 +80,7 @@ const CardForm = () => {
                         </div>
                         <div className={styles.each__bonus}>
                             <FaWhatsapp className={styles.icons} />
-                            <span className={styles.bonus}>Grupo no Whatsapp</span>
+                            <span className={styles.bonus}>Grupo exclusivo no Whatsapp</span>
                         </div>
                     </div>
                 </Form>

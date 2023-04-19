@@ -6,7 +6,7 @@ const Presentation = () => {
   return (
     <div className={styles.full__container}>
       <div className={styles.tip__card}>
-          <p className={styles.tip__card__paragraph}>O Vulpes Business Class é uma Masterclass 100%</p>
+          <p className={styles.tip__card__paragraph}>O <b>Vulpes Business Class</b> é uma Masterclass 100%</p>
           <p className={styles.tip__card__paragraph}>online e gratuita para você aprender na prática a</p>
           <p className={styles.tip__card__paragraph}>falar com propriedade e autenticidade sobre o seu</p>
           <p className={styles.tip__card__paragraph}>trabalho e suas competências em inglês.</p>
