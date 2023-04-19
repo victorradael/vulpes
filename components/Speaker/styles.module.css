@@ -1,0 +1,177 @@
+.container {
+    width: 86rem;
+    height: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.image__logo__front {
+    position: absolute;
+    width: 100%;
+}
+
+.image__logo__back {
+    animation: rotation 24s infinite linear;
+    width: 100%;
+}
+
+.image__inside__back, .image__inside__front {
+    object-fit: contain;
+    width: 100% !important;
+    height: unset !important;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.title {
+    color: white;
+    font-size: clamp(1rem, 3vw, 2rem);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+
+.apresentation__line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap: 4rem;
+}
+
+.images__area {
+    position: relative;
+}
+
+.image__flags__area {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    position: absolute;
+    bottom: .8rem;
+    right: -2rem;
+}
+
+.image__flag__br, .image__flag__us {
+    border: 2px solid var(--text-blue-color);
+    border-radius: 50%;
+}
+
+.image__speaker {
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.about__speaker {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .8rem;
+}
+
+.title__area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tag__speaker {
+    font-size: .8rem;
+    font-weight: 500;
+    background-color: var(--text-blue-color);
+    border-radius: .2rem;
+    padding-inline: .4rem;
+}
+
+.title__speaker {
+    color: white;
+    font-weight: 500;
+    font-size: clamp(1.1rem, 2vw, 1.6rem);
+}
+
+.subtitle__speaker {
+    color: #A0A0A0;
+    font-size: clamp(0.6rem, 2vw, 0.9rem);
+}
+
+.bio__speaker {
+    color: var(--text-blue-color);
+    font-weight: 500;
+    font-size: clamp(0.7rem, 2vw, 1rem);
+}
+
+.paragraph__speaker {
+    color: white;
+    font-size: clamp(0.7rem, 2vw, 1rem);
+}
+
+
+
+@media (max-width: 1400px) {
+    .container {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 1300px) {
+    .image__logo__front {
+        width: 22%;
+    }
+    
+    .image__logo__back {
+        width: 60%;
+    }
+    
+    .logo {
+        top: 4rem;
+        right: -7rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .images__area {
+        margin-inline: 3rem;
+    }
+    .apresentation__line {
+        flex-direction: column;
+    }
+    .logo {
+        top: 2rem;
+        right: -4rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .title__area {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: .2rem;
+    }
+
+    .image__logo__front {
+        width: 18%;
+    }
+    
+    .image__logo__back {
+        width: 46%;
+    }
+
+}

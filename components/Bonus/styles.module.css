@@ -8,11 +8,12 @@
     margin-top: 12rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .title {
     max-height: 2.5rem;
+    color: var(--text-red-color);
     font-size: clamp(16px, 3vw, 24px);
     font-weight: bold;
     text-align: center;
@@ -44,7 +45,7 @@
 .break__line {
     width: 100%;
     margin-top: 1rem;
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px solid #ffc6ca;
 }
 
 .user__card {
@@ -63,7 +64,7 @@
 
 .image__circle {
     border-collapse: collapse;
-    border: .2rem solid var(--text-blue-color);
+    border: .2rem solid var(--text-red-color);
     border-radius: 50%;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .people__office {
-    color: #a0a0a0;
+    color: #A0A0A0;
 }
 
 @media (max-width: 1400px) {

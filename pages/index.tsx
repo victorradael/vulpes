@@ -7,6 +7,9 @@ import Presentation from "../views/Presentation";
 import LearnCardsView from "../views/LearnCards";
 import BonusView from "../views/BonusView";
 import StakeholdersView from "../views/Stakeholders";
+import SpeakerView from "../views/SpeakerView";
+import DataView from "../views/DataView";
+import InspirationView from "../views/InspirationView";
 
 
 const LandingPage: NextPage = () => {
@@ -17,10 +20,13 @@ const LandingPage: NextPage = () => {
                 <link rel="shortcut icon" href="/Logo-Vulpes--logo-cor-transparente.png" />
             </Head>
             <Header />
+            <DataView />
             <Presentation />
+            <SpeakerView />
             <LearnCardsView />
             <BonusView />
             <StakeholdersView />
+            <InspirationView />
             <Footer />
         </ContentContainer>
     );

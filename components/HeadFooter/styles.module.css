@@ -25,10 +25,32 @@
     border: none;
     margin-top: 2rem;
     margin-bottom: 4rem;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: .4rem;
+    right: -2rem;
+    font-size: 2rem;
+    color: var(--text-blue-color);
+    animation: bounce-horizontal 1s infinite;
 }
 
 .button:hover {
     background: var(--gradient-red-hover);
+}
+
+@keyframes bounce-horizontal {
+    0%, 100% {
+        transform: translateX(2rem);
+        animation-timing-function: cubic-bezier(.8,0,1,1);
+    }
+    
+    50% {
+        transform: translateX(0);
+        animation-timing-function: cubic-bezier(0,0,.2,1);
+    }
 }
 
 @media (max-width: 1400px) {

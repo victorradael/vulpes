@@ -9,7 +9,7 @@ import img_Sharon from '../../public/PESSOAS/foto-Sharon Brito.png';
 const BonusSession = () => {
     return (
         <div className={styles.container}>
-            <div className={styles.title}>Pessoas que já impactamos<br />em nossos últimos eventos:</div>
+            <div className={styles.title}>Pessoas que já impactamos em <br />nossos últimos eventos:</div>
             <div className={styles.cards__group}>
                 <div className={styles.card}>
                     <span className={styles.people__brief}>
@@ -29,7 +29,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Cecilia Martins</span>
-                            <span className={styles.people__office}>Listener - Business Club</span>
+                            <span className={styles.people__office}>Learner - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
@@ -50,7 +50,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Gabriel Drummond</span>
-                            <span className={styles.people__office}>Listener - Business Club</span>
+                            <span className={styles.people__office}>Learner - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
@@ -71,7 +71,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Isabela Assumpção</span>
-                            <span className={styles.people__office}>Listener - Business Club</span>
+                            <span className={styles.people__office}>Learner - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
@@ -92,7 +92,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Pollyana Helena</span>
-                            <span className={styles.people__office}>Listener - Business Club</span>
+                            <span className={styles.people__office}>Learner - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
@@ -113,7 +113,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Sharon Brito</span>
-                            <span className={styles.people__office}>Listener - Business Club</span>
+                            <span className={styles.people__office}>Learner - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>

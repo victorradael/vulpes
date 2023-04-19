@@ -80,7 +80,7 @@ const CardForm = () => {
                         </div>
                         <div className={styles.each__bonus}>
                             <FaWhatsapp className={styles.icons} />
-                            <span className={styles.bonus}>Grupo no Whatsapp</span>
+                            <span className={styles.bonus}>Grupo exclusivo no Whatsapp</span>
                         </div>
                     </div>
                 </Form>

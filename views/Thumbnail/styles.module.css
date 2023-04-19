@@ -16,7 +16,7 @@
         background: transparent url('../../public/MOBILE/BG-01-CELULAR.jpg') 0% 0% no-repeat padding-box;
         background-size: cover;
         background-position: center;
-        height: 90rem;
+        height: 100rem;
     }
 }
 @media (max-width: 600px) {

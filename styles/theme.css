@@ -3,6 +3,7 @@
   --text-dark-color: #003049;
   --text-blue-color: #42D3FF;
   --text-red-color: #C1121F;
+  --black-background: #0f0f0f;
   --gradient-red: transparent linear-gradient(180deg, #C1121F 0%, #9F1D27 100%) 0% 0% no-repeat padding-box;
   --gradient-red-hover: transparent linear-gradient(180deg, #C1121F 70%, #9F1D27 100%) 0% 0% no-repeat padding-box;
   --gradient-blue: transparent linear-gradient(180deg, #11628D 0%, #003049 100%) 0% 0% no-repeat padding-box;

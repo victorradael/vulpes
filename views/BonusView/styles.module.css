@@ -15,7 +15,7 @@
 }
 
 .slider__card {
-    background-color: #0f0f0f;
+    background-color: var(--black-background);
     padding-block: 1.4rem;
     position: absolute;
     animation: scroll 38s linear infinite;
