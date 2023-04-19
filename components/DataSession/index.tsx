@@ -8,10 +8,10 @@ const DataSession = () => {
                 <div className={styles.column__value}>
                     <div className={styles.line__info}>
                         <span className={styles.line__value}>+250</span>
-                        <span className={styles.line__unit}>mil</span>
+                        <span className={styles.line__unit}>clientes</span>
                     </div>
                     <div className={styles.break__line}></div>
-                    <span className={styles.line__detail}>Clientes impactados pela Vulpes</span>
+                    <span className={styles.line__detail}>Impactados pela Vulpes</span>
                 </div>
 
                 <div className={styles.column__value}>
@@ -29,7 +29,7 @@ const DataSession = () => {
                         <span className={styles.line__unit}>%</span>
                     </div>
                     <div className={styles.break__line}></div>
-                    <span className={styles.line__detail}>Dos cargos que mais remuneram, exigem inglês</span>
+                    <span className={styles.line__detail}>Dos cargos que mais remuneram exigem inglês</span>
                 </div>
             </div>
         </div>

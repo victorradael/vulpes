@@ -52,10 +52,10 @@ const SpeakerSession = () => {
                         About me
                     </span>
                     <span className={styles.paragraph__speaker}>
-                        Ensina idiomas estrangeiros a mais de 10 anos com foco nas melhores estratégias comunicativas do mundo dos negócios. Está na missão de educar e desenvolver pessoas, para que se tornem grandes profissionais qualificados em negociações asertivas.
+                    Ensina idiomas estrangeiros há mais de 10 anos com foco nas melhores estratégias comunicativas do mundo dos negócios. Sua missão é educar e desenvolver pessoas, para que se tornem grandes profissionais qualificados em negociações assertivas.
                         <br />
                         <br />
-                        Já inpulsionou a comunicação de mais de 200 clientes em palestras, treinamentos, mentorias e projetos voltados ao desenvolvimento de profissionais dos negócios e da indústria.
+                        Já impulsionou a comunicação de mais de 250 clientes em palestras, treinamentos, mentorias e projetos voltados ao desenvolvimento de profissionais dos negócios e da indústria.
                     </span>
                 </div>
             </div>
