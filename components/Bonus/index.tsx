@@ -5,6 +5,7 @@ import img_Gabriel from '../../public/PESSOAS/foto-Gabriel Drummond.png';
 import img_Isabela from '../../public/PESSOAS/foto-Isabela Assumpção.png';
 import img_Polly from '../../public/PESSOAS/foto-Pollyana-Helena.png';
 import img_Sharon from '../../public/PESSOAS/foto-Sharon Brito.png';
+import img_Guilherme from '../../public/PESSOAS/foto-Guilherme-Rodrigues.png';
 
 const BonusSession = () => {
     return (
@@ -29,7 +30,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Cecilia Martins</span>
-                            <span className={styles.people__office}>Learner - Business Club</span>
+                            <span className={styles.people__office}>Listener - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
@@ -50,7 +51,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Gabriel Drummond</span>
-                            <span className={styles.people__office}>Learner - Business Club</span>
+                            <span className={styles.people__office}>Listener - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
@@ -71,7 +72,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Isabela Assumpção</span>
-                            <span className={styles.people__office}>Learner - Business Club</span>
+                            <span className={styles.people__office}>Listener - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
@@ -92,7 +93,7 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Pollyana Helena</span>
-                            <span className={styles.people__office}>Learner - Business Club</span>
+                            <span className={styles.people__office}>Listener - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
@@ -113,7 +114,28 @@ const BonusSession = () => {
                         </div>
                         <div className={styles.card__texts}>
                             <span className={styles.people__name}>Sharon Brito</span>
-                            <span className={styles.people__office}>Learner - Business Club</span>
+                            <span className={styles.people__office}>Listener - Business Club</span>
+                        </div>
+                    </div>
+                    <div className={styles.break__line}></div>
+                </div>
+
+                <div className={styles.card}>
+                    <span className={styles.people__brief}>
+                        &quot;Foi uma experiência ótima devido a didática utilizada pela Vulpes, algo que não presenciei em nenhum outro curso de inglês que fiz antes; além disso, perdi o medo que tinha de me comunicar em outra língua vendo que outras pessoas passavam pela mesma situação que eu, ver elas tentarem me encorajou.&quot;
+                    </span>
+                    <div className={styles.user__card}>
+                        <div className={styles.image__circle}>
+                            <Image
+                                src={img_Guilherme}
+                                alt="Imagem de Usuário da Guilherme Rodrigues"
+                                width={64}
+                                height={64}
+                                />
+                        </div>
+                        <div className={styles.card__texts}>
+                            <span className={styles.people__name}>Guilherme Rodrigues</span>
+                            <span className={styles.people__office}>Listener - Business Club</span>
                         </div>
                     </div>
                     <div className={styles.break__line}></div>
