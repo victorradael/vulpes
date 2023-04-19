@@ -69,7 +69,7 @@ const CardForm = () => {
 
                     <Button type='submit' className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
                     <div className={styles.center__data}>
-                        <span className={styles.small_text_data}><b>10 DE ABRIL, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></span>
+                        <span className={styles.small_text_data}><b>15 DE MAIO, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></span>
                         <div className={styles.break__line}></div>
                     </div>
 

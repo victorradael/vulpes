@@ -17,7 +17,7 @@ const LandingPage: NextPage = () => {
         <ContentContainer>
             <Head>
                 <title>Vulpes Business Class</title>
-                <link rel="shortcut icon" href="/Logo-Vulpes--logo-cor-transparente.png" />
+                <link rel="shortcut icon" href="/fav-icon-vulpes-azul.png" />
             </Head>
             <Header />
             <DataView />
