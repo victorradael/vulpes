@@ -65,6 +65,8 @@
 }
 
 .break__line {
+    width: 20%;
+    margin-inline: auto;
     margin-top: 8rem;
     border-bottom: 1px solid var(--text-red-color);
 }
