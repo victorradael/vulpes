@@ -14,7 +14,7 @@ const InspirationSession = () => {
                 <div className={styles.reduce__width}>
                     <span className={styles.line__detail}>
                         <Link href="https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-social-economy">
-                            <a target="_blank" rel="noopener noreferrer">
+                            <a target="_blank" rel="noopener noreferrer" className={styles.remove__style}>
                                 <span className={styles.text__link}>
                                     A comunicação eficaz no time aumenta a produtividade entre <b>20</b> e <b>25%</b>.
                                 </span>

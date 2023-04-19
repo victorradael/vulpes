@@ -33,6 +33,16 @@
     cursor: pointer;
 }
 
+.remove__style:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+    
+.remove__style:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 .check {
     margin-top: 0.4rem;
     margin-right: 0.4rem;

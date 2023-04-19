@@ -18,6 +18,16 @@
     text-align: center;
 }
 
+.remove__style:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+    
+.remove__style:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
