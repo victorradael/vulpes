@@ -28,6 +28,9 @@ const CardForm = () => {
 
         setMessage(response.message);
         setShowToast(true);
+        setName('');
+        setEmail('');
+        setLgpd(false);
     };
 
     const isFormValid = () => {
