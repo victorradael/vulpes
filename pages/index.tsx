@@ -1,5 +1,11 @@
 import type { NextPage } from "next";
 import Head from 'next/head'
+import './styles.module.css';
+import styles from './styles.module.css';
+import Link from 'next/link';
+import Image from 'next/image';
+import img_wpp_group from '../public/group-wpp.png';
+
 import ContentContainer from "../views/Container";
 import Header from "../views/Thumbnail";
 import Footer from "../views/Footer";
@@ -28,6 +34,17 @@ const LandingPage: NextPage = () => {
             <StakeholdersView />
             <InspirationView />
             <Footer />
+
+            <Link href="https://chat.whatsapp.com/JVsaxpR9svH4o7zAei4eU8">
+                <a target="_blank" rel="noopener noreferrer" className={styles.img__wpp__group}>
+                    <Image
+                    src={img_wpp_group}
+                    alt="Imagem icone Grupo de Whatsapp"
+                    width={47}
+                    height={46}
+                    />
+                </a>
+            </Link>
         </ContentContainer>
     );
 };

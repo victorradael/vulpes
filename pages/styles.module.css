@@ -1,0 +1,58 @@
+.img__wpp__group {
+    z-index: 99;
+    position: fixed;
+    right: 2rem;
+    bottom: 2.4rem;
+    padding: 0.4rem 0.4rem 0 0.4rem;
+    background-color: #25D366;
+    border-radius: 1.2rem;
+    animation: pulse-black 7s infinite;
+}
+
+.img__wpp__group:hover {
+    background-color: #2be16e;
+}
+
+.img__wpp__group:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+    
+.img__wpp__group:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+@keyframes pulse-black {
+    0% {
+      transform: scale(0.95);
+      box-shadow: .1rem .2rem .4rem #00000040;
+    }
+
+    66% {
+        transform: scale(0.95);
+        box-shadow: .1rem .2rem .4rem #00000040;
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 .3rem #2be16e60;
+    }
+
+    82% {
+      transform: scale(0.95);
+      box-shadow: .1rem .2rem .4rem #00000040;
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: .1rem .2rem .4rem #00000040;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .img__wpp__group {
+        bottom: .6rem;
+        right: .6rem;
+    }
+  }
