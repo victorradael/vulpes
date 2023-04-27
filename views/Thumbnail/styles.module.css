@@ -11,6 +11,13 @@
     justify-content: flex-start;
 }
 
+.img__wpp__group {
+    z-index: 99;
+    position: static;
+    top: 10rem;
+    right: 10rem;
+}
+
 @media (max-width: 900px) {
     .container {
         background: transparent url('../../public/MOBILE/BG-01-CELULAR.jpg') 0% 0% no-repeat padding-box;

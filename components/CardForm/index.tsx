@@ -91,7 +91,6 @@ const CardForm = () => {
                 <Toast show={showToast} onClose={() => setShowToast(false)} autohide delay={3000} className={styles.toast}>
                     <Toast.Body >{message}</Toast.Body>
                 </Toast>
-
             </div>
         </div>
     );
