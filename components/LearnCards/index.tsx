@@ -53,10 +53,6 @@ const LearnCards = () => {
                     </div>
                     <p className={styles.card__paragraph}>Entenda como as grandes mentes do mundo dos negócios pensam, com o foco direcionado para a sua área de atuação.</p>
                 </div>
-                {/* <p className={styles.card}>VOCÊ APRENDERÁ COMO COLOCAR SEU INGLÊS PARA FUNCIONAR DENTRO DA REALIDADE DO SEU TRABALHO, DE FORMA SIGNIFICATIVA E NATURAL</p> */}
-                {/* <p className={styles.card}>ESTRATÉGIAS COMUNICATIVAS PARA SEU INGLÊS FUNCIONAR NA PRÁTICA, E NÃO SÓ NA TEORIA</p> */}
-                {/* <p className={styles.card}>ASSISTÊNCIA DIRECIONADA DE PROFESSORES ESPECIALISTAS EM INGLÊS AVANÇADO PARA NEGÓCIOS</p> */}
-                {/* <p className={styles.card}>FOCO NAS NECESSIDADES DE ENGENHEIROS, CORPORATIVOS, CONSULTORES, TI, ADVOGADOS E EMPREENDEDORES</p> */}
             </div>
         </div>
     );

@@ -9,8 +9,9 @@ import styles from './styles.module.css';
 import img from '../../public/LOGO_EVENTO.png';
 import { GrCertificate } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
+import modalType from '../../interface/modalType';
 
-const CardForm = () => {
+const CardForm = ({ modalChangers }: modalType) => {
     const [showToast, setShowToast] = useState(false);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -25,7 +26,6 @@ const CardForm = () => {
             body: JSON.stringify({ name, email, agree_lgpd: lgpd }),
             headers: { "Content-Type": "application/json" }
         }).then(response => response.json());
-
         setMessage(response.message);
         setShowToast(true);
         setName('');
@@ -48,8 +48,7 @@ const CardForm = () => {
                     src={img}
                     alt="Logo do evento Vulpes Business Class"
                     width={194}
-                    height={72}
-                />
+                    height={72} />
                 <h1 className={styles.titulo}>
                     Para você, não basta saber <br />inglês. Você precisa falar inglês <br />com clareza e excelência.
                 </h1>
@@ -58,19 +57,17 @@ const CardForm = () => {
                     <Form.Control
                         type="text" value={name} onChange={(event) => setName(event.target.value)}
                         placeholder='Nome completo'
-                        className={styles.input}
-                    />
+                        className={styles.input} />
                     <Form.Control
                         type="email" value={email} onChange={(event) => setEmail(event.target.value)}
                         placeholder='E-mail'
-                        className={styles.input}
-                    />
+                        className={styles.input} />
                     <div className={styles.line}>
                         <input className={styles.check} type="checkbox" required name="LGPD" onChange={handleCheckboxChange} checked={lgpd} />
                         <p className={styles.small_text_agree}>Estou de acordo com a <Link href="/politica-privacidade"><a target="_blank" rel="noopener noreferrer" className={styles.remove__style}><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></a></Link> da Vulpes Idiomas</p>
                     </div>
 
-                    <Button type='submit' className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
+                    <Button type='submit' onClick={() => setTimeout(() => modalChangers(true), 1500)} className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
                     <div className={styles.center__data}>
                         <span className={styles.small_text_data}><b>15 DE MAIO, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></span>
                         <div className={styles.break__line}></div>
@@ -89,7 +86,7 @@ const CardForm = () => {
                 </Form>
 
                 <Toast show={showToast} onClose={() => setShowToast(false)} autohide delay={3000} className={styles.toast}>
-                    <Toast.Body >{message}</Toast.Body>
+                    <Toast.Body>{message}</Toast.Body>
                 </Toast>
             </div>
         </div>

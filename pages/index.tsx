@@ -8,7 +8,7 @@ import img_wpp_group from '../public/group-wpp.png';
 
 import ContentContainer from "../views/Container";
 import Header from "../views/Thumbnail";
-import Footer from "../views/Footer";
+import FooterView from "../views/FooterView";
 import Presentation from "../views/Presentation";
 import LearnCardsView from "../views/LearnCards";
 import BonusView from "../views/BonusView";
@@ -16,24 +16,35 @@ import StakeholdersView from "../views/Stakeholders";
 import SpeakerView from "../views/SpeakerView";
 import DataView from "../views/DataView";
 import InspirationView from "../views/InspirationView";
+import PassportSession from "../components/Passport";
+import { useState } from "react";
 
 
 const LandingPage: NextPage = () => {
+    const[modalIsOpen, setModalIsOpen] = useState(false);
+
+    const modalChanger = (args: boolean) => {
+        setModalIsOpen(args);
+    }
+
     return (
         <ContentContainer>
             <Head>
                 <title>Vulpes Business Class</title>
                 <link rel="shortcut icon" href="/fav-icon-vulpes-azul.png" />
             </Head>
-            <Header />
+            <Header modalChangers={modalChanger}/>
             <DataView />
-            <Presentation />
+            <Presentation modalChangers={modalChanger}/>
             <SpeakerView />
             <LearnCardsView />
             <BonusView />
-            <StakeholdersView />
+            <StakeholdersView modalChangers={modalChanger}/>
             <InspirationView />
-            <Footer />
+            <FooterView modalChangers={modalChanger}/>
+            {modalIsOpen && (
+                <PassportSession modalChangers={modalChanger}/>
+            )}
 
             <Link href="https://chat.whatsapp.com/JVsaxpR9svH4o7zAei4eU8">
                 <a target="_blank" rel="noopener noreferrer" className={styles.img__wpp__group}>
