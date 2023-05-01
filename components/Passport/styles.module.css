@@ -1,0 +1,105 @@
+.container {
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #1b1b1b80;
+    width: 100vw;
+    height: 100vh;
+}
+
+.area__passport {
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 5;
+}
+
+.content__passport {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    z-index: 100;
+}
+
+.icon :hover {
+    color: var(--text-blue-color);
+    cursor: pointer;
+}
+
+.image__passport {
+    width: 445px;
+    height: 616px;
+}
+
+.texts__passaport {
+    position: absolute;
+    top: 3rem;
+    left: 28%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title__passaport {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.centralize__button {
+    position: absolute;
+    bottom: 8rem;
+    left: 28%;
+    width: 60%;
+}
+
+.button {
+    background-color: #25D36690;
+    border: 0px;
+}
+
+.button:hover {
+    background-color: #2be16e;
+}
+
+@media (max-width: 620px) {
+    .icon {
+        font-size: 1.6rem;
+        top: .4rem;
+        right: .4rem;
+    }
+
+    .image__passport {
+        width: 300px;
+        height: 415px;
+    }
+
+    .texts__passaport {
+        top: 2rem;
+    }
+
+    .title__passaport {
+        font-size: 16px;
+    }
+
+    .subtitle__passaport {
+        font-size: 12px;
+    }
+
+    .centralize__button {
+        bottom: 4rem;
+    }
+
+    .button {
+        padding-block: .8rem;
+        font-size: 12px;
+    }
+}

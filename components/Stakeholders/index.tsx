@@ -1,7 +1,8 @@
+import modalType from '../../interface/modalType';
 import styles from './styles.module.css';
 import Button from 'react-bootstrap/Button';
 
-const Stakeholders = () => {
+const Stakeholders = ({ modalChangers }: modalType) => {
     return (
         <div className={styles.container}>
             <div className={styles.cards__group}>
@@ -22,7 +23,7 @@ const Stakeholders = () => {
                     <p className={styles.card}>Não é para quem encara o inglês como um obstáculo e está disposto a abrir mão de grandes avanços e oportunidades que só conseguiria com um inglês bem trabalhado.</p>
                 </div>
             </div>
-            <Button href='#header' className={styles.button}><b>PRECISO DO VULPES BUSINESS CLASS</b></Button>
+            <Button href='#header' onClick={() => setTimeout(() => modalChangers(true), 500)} className={styles.button}><b>PRECISO DO VULPES BUSINESS CLASS</b></Button>
         </div>
     );
 };
