@@ -69,7 +69,7 @@ const CardForm = ({ modalChangers }: modalType) => {
 
                     <Button type='submit' onClick={() => setTimeout(() => modalChangers(true), 1500)} className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
                     <div className={styles.center__data}>
-                        <span className={styles.small_text_data}><b>15 DE MAIO, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></span>
+                        <span className={styles.small_text_data}><b>05 DE JUNHO, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></span>
                         <div className={styles.break__line}></div>
                     </div>
 
