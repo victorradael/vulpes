@@ -1,0 +1,5 @@
+.top__wave {
+    position: absolute;
+    bottom: -19rem;
+    z-index: 10;
+}
