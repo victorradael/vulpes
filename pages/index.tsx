@@ -4,7 +4,7 @@ import HeroView from '../views/VulpesLand/HeroView';
 import NavView from '../views/VulpesLand/NavView';
 import MethodologyView from '../views/VulpesLand/MethodologyView';
 import DataValuesView from '../views/VulpesLand/DataValuesView';
-import img_wpp_group from '../public/group-wpp.png';
+import LandFooterView from '../views/VulpesLand/LandFooterView';
 
 const LandingPage: NextPage = () => {
     return (
@@ -13,7 +13,7 @@ const LandingPage: NextPage = () => {
             <HeroView></HeroView>
             <DataValuesView></DataValuesView>
             <MethodologyView></MethodologyView>
-            <Header modalChangers={modalChanger}/>
+            <LandFooterView></LandFooterView>
         </ContentContainer>
     );
 };
