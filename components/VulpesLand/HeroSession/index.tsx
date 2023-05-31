@@ -31,6 +31,7 @@ const HeroSession = () => {
             alt="Retrado com o grupo da Vulpes"
             width={459}
             height={564}
+            priority={true}
         />
       </div>
       <div className={styles.retangulos}>
