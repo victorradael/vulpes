@@ -1,6 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head'
-import './styles.module.css';
+import HeroView from '../views/VulpesLand/HeroView';
 import NavView from '../views/VulpesLand/NavView';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -14,7 +14,7 @@ const LandingPage: NextPage = () => {
     return (
         <ContentContainer>
             <NavView></NavView>
-                <title>Vulpes Business Class</title>
+            <HeroView></HeroView>
                 <link rel="shortcut icon" href="/fav-icon-vulpes-azul.png" />
             </Head>
             <Header modalChangers={modalChanger}/>
