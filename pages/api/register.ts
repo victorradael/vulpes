@@ -23,7 +23,6 @@ export default async function register(req: NextApiRequest, res: NextApiResponse
   const id = uuidv4();
   const date_s = new Date();
   const date = date_s.toISOString();
-  const date = Date.now();
   const index = 'interested'
   const newInterestedRef = ref(db, `${index}/${id}`);
 
