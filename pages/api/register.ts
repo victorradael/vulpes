@@ -21,6 +21,7 @@ export default async function register(req: NextApiRequest, res: NextApiResponse
 
   const db = getDatabase(app);
   const id = uuidv4();
+  const date = Date.now();
   const index = 'interested'
   const newInterestedRef = ref(db, `${index}/${id}`);
 
@@ -37,6 +38,7 @@ export default async function register(req: NextApiRequest, res: NextApiResponse
         set(newInterestedRef, {
           name: name,
           email: email,
+          date: date,
           agree_lgpd: agree_lgpd
         });
       }
