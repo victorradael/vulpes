@@ -54,7 +54,7 @@ const CardForm = ({ modalChangers }: modalType) => {
                 </h1>
                 <p className={styles.small_text}>Aqui, você encontra inglês para negócios, na prática, <b>à altura do profissional que você é.</b></p>
                 <Form onSubmit={handleSubmit} className={styles.formulario}>
-                    <Form.Control
+                    {/* <Form.Control
                         type="text" value={name} onChange={(event) => setName(event.target.value)}
                         placeholder='Nome completo'
                         className={styles.input} />
@@ -65,13 +65,22 @@ const CardForm = ({ modalChangers }: modalType) => {
                     <div className={styles.line}>
                         <input className={styles.check} type="checkbox" required name="LGPD" onChange={handleCheckboxChange} checked={lgpd} />
                         <p className={styles.small_text_agree}>Estou de acordo com a <Link href="/politica-privacidade"><a target="_blank" rel="noopener noreferrer" className={styles.remove__style}><span className={styles.privacy__link}><strong>Política de Privacidade</strong></span></a></Link> da Vulpes Idiomas</p>
-                    </div>
+                    </div> */}
 
-                    <Button type='submit' onClick={() => setTimeout(() => modalChangers(true), 1500)} className={styles.button} disabled={!isFormValid()}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></Button>
-                    <div className={styles.center__data}>
+                    {/* <Button type='submit' onClick={() => setTimeout(() => modalChangers(true), 1500)} className={styles.button} disabled={!isFormValid()}><div className={styles.legend__button}><b>QUERO PARTICIPAR DO BUSINESS CLASS</b></div></Button> */}
+                    <Button className={styles.button}>
+                        <div className={styles.legend__button}>
+                            <Link href="https://sun.eduzz.com/1897833" target='_blank'>
+                                <a target="_blank" rel="noopener noreferrer" className={styles.remove__style}>
+                                    <b>ACESSAR O BUSINESS CLUB</b>
+                                </a>
+                            </Link>
+                        </div>
+                    </Button>
+                    {/* <div className={styles.center__data}>
                         <span className={styles.small_text_data}><b>05 DE JUNHO, ÀS 20 HORAS • 100% ONLINE E GRATUITA</b></span>
                         <div className={styles.break__line}></div>
-                    </div>
+                    </div> */}
 
                     <div className={styles.bonus__area}>
                         <div className={styles.each__bonus}>
