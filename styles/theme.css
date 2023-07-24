@@ -1,9 +1,12 @@
 :root {
-  --text-light-color: #fff6f4;
+  --text-light-color: #FFF6F4;
   --text-dark-color: #003049;
   --text-blue-color: #42D3FF;
   --text-red-color: #C1121F;
-  --black-background: #0f0f0f;
+  --black-background: #0F0F0F;
+  --marsala: #7B3838;
+  --red-wine: #AD2831;
+  --red-wine-light: #DB333E;
   --gradient-red: transparent linear-gradient(180deg, #C1121F 0%, #9F1D27 100%) 0% 0% no-repeat padding-box;
   --gradient-red-hover: transparent linear-gradient(180deg, #C1121F 70%, #9F1D27 100%) 0% 0% no-repeat padding-box;
   --gradient-blue: transparent linear-gradient(180deg, #11628D 0%, #003049 100%) 0% 0% no-repeat padding-box;

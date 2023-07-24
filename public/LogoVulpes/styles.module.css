@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.color__1, .color__2 {
+    fill: var(--text-dark-color);
+    -webkit-transition: fill .7s ease-out;
+    -moz-transition: fill .7s ease-out;
+    -o-transition: fill .7s ease-out;
+    transition: fill .7s ease-out;
+}
+
+.svg__logo, .svg__name {
+    height: 3rem;
+}
+
+.svg__hamburguer {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .svg__name {
+        display: none;
+    }
+    
+    .svg__hamburguer {
+        display: flex;
+    }
+}
+
+.container:hover {
+    cursor: pointer;
+
+    .color__1 {
+        fill: #780000;
+    }
+    .color__2 {
+        fill: #E0A38D;
+    }
+}
