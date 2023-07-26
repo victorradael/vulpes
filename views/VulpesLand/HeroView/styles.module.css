@@ -1,0 +1,27 @@
+.container {
+    background: transparent url('../../../public/LANDPAGE/fox-hero.png') 0% 0% no-repeat padding-box;
+    background-size: contain;
+    background-position: 104% bottom;
+
+    height: auto;
+    width: 100vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: hidden;
+    background-color: #FEFEFE;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        background-size: 70%;
+    }
+}
+
+
+@media (max-width: 760px) {
+    .container {
+        background-size: 56%;
+    }
+}

@@ -1,0 +1,142 @@
+.container {
+    height: 40rem;
+    width: 86rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    
+    letter-spacing: -.05rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 0 0 8rem;
+}
+
+.gray {
+    color: #A2A2A2;
+    font-size: 2rem;
+}
+
+.title {
+    margin: 0;
+    font-size: 4rem;
+    letter-spacing: -.2rem;
+}
+
+.languages {
+    color: #42D3FF;
+}
+
+.paragr {
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    width: 30rem;
+}
+
+.know__more__session {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.hand__arrow {
+    animation: jump 1.6s ease-in-out infinite;
+}
+
+.group__vulpes {
+    top: 5rem;
+    right: 6rem;
+    position: absolute;
+}
+
+.retangulos {
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+
+@keyframes jump {
+	0% {
+		transform: translatey(.3rem);
+	}
+	50% {
+		transform: translatey(-.3rem);
+	}
+	100% {
+		transform: translatey(.3rem);
+	}
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-1.6rem);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@media (max-width: 1500px) {
+    .container {
+        width: 96%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        height: 64vw;
+    }
+
+    .intro {
+        margin: 0 0 0 4rem;
+    }
+
+    .gray {
+        color: #A2A2A2;
+        font-size: clamp(1.2rem, 3vw, 2rem);
+    }
+
+    .title {
+        font-size: clamp(2.4rem, 5vw, 4rem);
+    }
+
+    .paragr {
+        font-size: clamp(1.4rem, 3vw, 2rem);
+        width: 64%;
+        margin-bottom: 4%;
+    }
+}
+
+@media (max-width: 760px) {    
+    .container {
+        height: 90vw;
+        justify-content: center;
+    }
+    
+    .intro {
+        align-items: center;
+        margin: 0;
+    }
+
+    .paragr {
+        font-size: clamp(1rem, 3vw, 1.6rem);
+        text-align : center;
+        margin-bottom: 20%;
+    }
+
+    .know__more__session {
+        font-size: clamp(.8rem, 2vw, 1rem);
+        gap: .2rem;
+    }
+}
