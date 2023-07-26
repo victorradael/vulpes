@@ -10,8 +10,8 @@ import LandFooterView from '../views/VulpesLand/LandFooterView';
 const LandingPage: NextPage = () => {
     return (
         <ContentContainer>
+            <NavView/>
             <Head>
-                <NavView></NavView>
                 <title>Vulpes Business Class</title>
                 <link rel="shortcut icon" href="/fav-icon-vulpes-azul.png" />
             </Head>
