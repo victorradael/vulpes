@@ -16,7 +16,7 @@ const LandFooterSession = () => {
             <div className={styles.legend__button}>
               <Link href={contactAgent} target='_blank'>
                 <a target="_blank" rel="noopener noreferrer" className={styles.remove__style}>
-                  Acompanhar Novidades
+                Entre em Contato
                 </a>
               </Link>
             </div>

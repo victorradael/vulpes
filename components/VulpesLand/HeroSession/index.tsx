@@ -10,7 +10,7 @@ const HeroSession = () => {
         <span className={styles.gray}>Hello_</span>
         <h1 className={styles.title}>Aprenda <span className={styles.languages}>Inglês</span></h1>
         <p className={styles.paragr}>de forma personalizada e com foco no seu objetivo</p>
-        <div className={styles.know__more__session}>
+        {/* <div className={styles.know__more__session}>
           <span className={styles.know__more}>Conheça a Vulpes</span>
           <div className={styles.hand__arrow}>
             <Image
@@ -20,7 +20,7 @@ const HeroSession = () => {
               height={24}
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
