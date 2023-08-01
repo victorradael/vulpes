@@ -21,8 +21,29 @@
 }
 
 .gray {
-    color: #A2A2A2;
+    color: #A2A2A280;
     font-size: 2rem;
+    
+    min-height: 48px;
+    animation: opac 3.5s linear infinite;
+}
+
+@keyframes opac {
+	0% {
+		opacity: 0%;
+	}
+	20% {
+		opacity: 100%;
+	}
+	30% {
+		opacity: 100%;
+	}
+	80% {
+		opacity: 0%;
+	}
+	100% {
+		opacity: 0%;
+	}
 }
 
 .title {
@@ -32,6 +53,10 @@
 }
 
 .languages {
+    color: #42D3FF;
+}
+
+.cursor {
     color: #42D3FF;
 }
 
@@ -108,7 +133,7 @@
     }
 
     .title {
-        font-size: clamp(2.4rem, 5vw, 4rem);
+        font-size: clamp(2rem, 5vw, 4rem);
     }
 
     .paragr {
@@ -127,6 +152,10 @@
     .intro {
         align-items: center;
         margin: 0;
+    }
+
+    .gray {
+        min-height: 32px;
     }
 
     .paragr {
