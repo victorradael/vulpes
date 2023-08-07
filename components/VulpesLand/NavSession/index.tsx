@@ -17,22 +17,22 @@ const NavSession = () => {
         <span className={styles.session}>
           Metodologia
         </span>
-        <span className={styles.session}>
-          Fundador
+        {/* <span className={styles.session}>
+          Fundadora
         </span>
         <span className={styles.session}>
           Depoimentos
         </span>
         <span className={styles.session}>
           Dúvidas
-        </span>
+        </span> */}
       </div>
 
       <Button className={styles.button}>
           <div className={styles.legend__button}>
               <Link href={contactAgent} target='_blank'>
                   <a target="_blank" rel="noopener noreferrer" className={styles.remove__style}>
-                      Acompanhar Novidades
+                    Entre em Contato
                   </a>
               </Link>
           </div>
