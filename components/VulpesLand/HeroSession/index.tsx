@@ -1,7 +1,10 @@
 import './styles.module.css';
 import styles from './styles.module.css';
 import Image from 'next/image';
-import imgHandArrow from '../../../public/LANDPAGE/hand-arrow-down.png';
+import cecilia_img from '../../../public/PESSOAS/foto-Cecilia-Martins.png';
+import pollyana_img from '../../../public/PESSOAS/foto-Pollyana-Helena.png';
+import guilherme_img from '../../../public/PESSOAS/foto-Guilherme-Rodrigues.png';
+import more_people_img from '../../../public/PESSOAS/more-people.png';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const HeroSession = () => {
@@ -31,6 +34,43 @@ const HeroSession = () => {
         </span>
         </h1>
         <p className={styles.paragr}>de forma personalizada e com foco no seu objetivo</p>
+        <div className={styles.vulpes_students__line}>
+          <div className={styles.students__line}>
+            <div className={styles.image__circle_1}>
+              <Image
+                src={cecilia_img}
+                alt="Image of a student called Cecilia"
+                width={44}
+                height={44}
+              />
+            </div>
+            <div className={styles.image__circle_2}>
+              <Image
+                src={pollyana_img}
+                alt="Image of a student called Pollyana"
+                width={44}
+                height={44}
+              />
+            </div>
+            <div className={styles.image__circle_3}>
+              <Image
+                src={guilherme_img}
+                alt="Image of a student called Guilherme"
+                width={44}
+                height={44}
+              />
+            </div>
+            <div className={styles.image__circle_4}>
+              <Image
+                src={more_people_img}
+                alt="Image with an increase simbol, that means have a lots of students more inside Vulpes"
+                width={44}
+                height={44}
+              />
+            </div>
+          </div>
+          <p className={styles.cta__paragr}>Junte-se a <span className={styles.text__blue}>+100</span> alunos na metodologia de aulas mais eficiênte do mercado</p>
+        </div>
         {/* <div className={styles.know__more__session}>
           <span className={styles.know__more}>Conheça a Vulpes</span>
           <div className={styles.hand__arrow}>
