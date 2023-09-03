@@ -43,10 +43,10 @@
 }
 
 .session:hover {
-    color: black;
+    color: #003049;
     cursor: pointer;
     padding-top: 0.2rem;
-    border-bottom: .2rem var(--red-wine) solid;
+    border-bottom: .2rem #376B86 solid;
 }
 
 .button {

@@ -49,15 +49,16 @@
 .title {
     margin: 0;
     font-size: 4rem;
+    font-family: 'Sora', sans-serif;
     letter-spacing: -.2rem;
 }
 
 .languages {
-    color: #42D3FF;
+    color: #376B86;
 }
 
 .cursor {
-    color: #42D3FF;
+    color: #376B86;
 }
 
 .text__blue {
