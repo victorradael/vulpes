@@ -6,6 +6,7 @@ import HeroView from '../views/VulpesLand/HeroView';
 import ContentContainer from "../views/Container";
 import LandFooterView from '../views/VulpesLand/LandFooterView';
 import ManifestView from '../views/VulpesLand/ManifestView';
+import TrailView from '../views/VulpesLand/TrailView';
 
 
 const LandingPage: NextPage = () => {
@@ -18,6 +19,7 @@ const LandingPage: NextPage = () => {
             </Head>
             <HeroView />
             <ManifestView />
+            <TrailView />
             <LandFooterView />
         </ContentContainer>
     );

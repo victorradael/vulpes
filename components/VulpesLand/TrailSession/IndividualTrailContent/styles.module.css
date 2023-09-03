@@ -1,0 +1,128 @@
+.container {
+    letter-spacing: -.05rem;
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+
+    padding-block: 2rem;
+}
+
+.trail__title {
+    font-weight: 600;
+    font-size: 2.1rem;
+    font-size: clamp(1.4rem, 3.2vw, 2.1rem);
+    letter-spacing: -1%;
+}
+
+.trail__paragr {
+    font-size: 1.2rem;
+}
+
+.trail__bold {
+    font-weight: 600;
+}
+
+.trail__title__top {
+    font-size: 2.4rem;
+    font-size: clamp(1.8rem, 6.6vw, 2.4rem);
+    font-weight: 800;
+    display: none;
+    color: #e28389;
+    font-family: 'Sora', sans-serif;
+}
+
+.button {
+    background-color: var(--red-wine);
+    color: #fefefe;
+    font-size: clamp(1rem, 3.2vw, 1.3rem);
+    border: none;
+    font-weight: 500;
+    border-radius: .2rem;
+    padding: .6rem 1.6rem;
+    -webkit-transition: color .7s ease-out;
+    -moz-transition: color .7s ease-out;
+    -o-transition: color .7s ease-out;
+    transition: color .7s ease-out;
+}
+
+.button:hover {
+    background-color: var(--red-wine-light);
+    color: #fefefe;
+}
+
+.link__arrow {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.explanation {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.centralize__img {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+}
+
+.remove__style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.remove__style:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+    
+.remove__style:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+@media (max-width: 930px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .explanation {
+        width: 100%;
+    }
+    
+    .centralize__img {
+        width: 100%;
+    }
+
+    .trail__title__top {
+        display: block;
+    }
+}
+
+@media (max-width: 530px) {
+    .button {
+        width: 100%;
+    }
+}
