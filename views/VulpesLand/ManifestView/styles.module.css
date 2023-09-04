@@ -1,0 +1,62 @@
+.container {
+    height: 50rem;
+    width: 100vw;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    border-radius: 3rem;
+    margin-block: -3rem;
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    background-color: #003049;
+    color: #FFFFFF;
+}
+
+.conduction__stroke {
+    position: absolute;
+    top: -4rem;
+}
+
+
+@media (max-width: 1350px) {
+    .container {
+        height: auto;
+        padding-block: 7rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        background-size: 70%;
+    }
+}
+
+
+@media (max-width: 760px) {
+    .container {
+        background-size: 56%;
+    }
+
+    .conduction__stroke {
+        width: 12px;
+        top: -2rem;
+    }
+}
+
+@media (max-width: 430px) {
+    .container {
+        background-size: 56%;
+        margin-block: -1rem;
+        border-radius: 1rem;
+    }
+
+    .conduction__stroke {
+        width: 12px;
+        top: -2rem;
+    }
+}

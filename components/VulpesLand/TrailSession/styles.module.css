@@ -1,0 +1,82 @@
+.container {
+    width: 70rem;
+    padding-top: 10rem;
+
+    letter-spacing: -.05rem;
+    margin: 0;
+    margin-bottom: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 4rem;
+}
+
+.trails__component {
+    width: 100%;
+    
+    flex-direction: column;
+    position: relative;
+}
+
+.main__box {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.2rem;
+
+    border-bottom: 2px solid #E0AEB1;
+}
+
+.paragr__place {
+    background-color: #00293E;
+    border: 1px solid #333333;
+    border-radius: 1rem;
+    margin-left: -2rem;
+    padding: 2rem;
+    padding-inline: 4rem;
+
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.trails__title {
+  font-family: 'Sora', sans-serif;
+  letter-spacing: -1%;
+  font-size: clamp(1.4rem, 3.6vw, 2.5rem);
+  width: 50rem;
+  text-align: center;
+}
+
+.text__red {
+    color: var(--red-wine);
+    font-weight: 600;
+}
+
+@media (max-width: 1500px) {
+    .container {
+        width: 78%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .trails__title {
+        width: 100%;
+    }
+}
+
+@media (max-width: 930px) {
+    .container {
+        padding-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .trails__title {
+        font-weight: 600;
+    }
+}
