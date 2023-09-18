@@ -1,12 +1,14 @@
 import type { NextPage } from 'next';
 import Head from 'next/head'
 import './styles.module.css';
+
 import NavView from '../views/VulpesLand/NavView';
 import HeroView from '../views/VulpesLand/HeroView';
 import ContentContainer from "../views/Container";
 import LandFooterView from '../views/VulpesLand/LandFooterView';
 import ManifestView from '../views/VulpesLand/ManifestView';
 import TrailView from '../views/VulpesLand/TrailView';
+import QuestionsView from '../views/VulpesLand/QuestionsView';
 
 
 const LandingPage: NextPage = () => {
@@ -20,6 +22,7 @@ const LandingPage: NextPage = () => {
             <HeroView />
             <ManifestView />
             <TrailView />
+            <QuestionsView />
             <LandFooterView />
         </ContentContainer>
     );
