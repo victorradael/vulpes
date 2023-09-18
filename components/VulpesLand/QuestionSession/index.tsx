@@ -18,7 +18,7 @@ const QuestionSession = () => {
   }
 
   return (
-    <div className={styles.container}>
+    <div id='quest' className={styles.container}>
       <h3 className={styles.session__title}>Dúvidas frequêntes:</h3>
       <ExpandMenu question={QUESTION.Q1} opened={menuExpanded} onMenuExpanded={menuExpandedHandle}/>
       <ExpandMenu question={QUESTION.Q2} opened={menuExpanded} onMenuExpanded={menuExpandedHandle}/>

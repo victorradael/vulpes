@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
   background-color: #FFF;
   background-image: url("../public/diamond.png");
-
+  scroll-behavior: smooth;
 }
 
 a {
