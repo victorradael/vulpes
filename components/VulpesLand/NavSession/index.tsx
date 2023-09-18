@@ -5,6 +5,16 @@ import Link from 'next/link';
 import { contactAgent } from '../../../public/Assets/Contact-Agent';
 
 const NavSession = () => {
+  
+  const onScrolling = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    e.preventDefault();
+
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, '');
+
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({ behavior: 'smooth' })
+  }
 
   return (
     <div className={styles.container} id='header'>
@@ -14,16 +24,20 @@ const NavSession = () => {
 
       <div className={styles.sessions}>
         <span className={styles.session}>
-          Metodologia
+          <a href='#method' className={styles.remove__style} onClick={onScrolling} rel="noopener noreferrer">
+            Metodologia
+          </a>
+        </span>
+        <span className={styles.session}>
+          <a href='#quest' className={styles.remove__style} onClick={onScrolling} rel="noopener noreferrer">
+            Dúvidas
+          </a>
         </span>
         {/* <span className={styles.session}>
           Fundadora
         </span>
         <span className={styles.session}>
           Depoimentos
-        </span>
-        <span className={styles.session}>
-          Dúvidas
         </span> */}
       </div>
 

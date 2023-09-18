@@ -1,0 +1,121 @@
+.container {
+    width: 96%;
+    background-color: #033b59;
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+    gap: .8rem;
+    
+    border-radius: .25rem;
+    color: #02283c;
+}
+
+.container__open {
+    width: 96%;
+    background-color: #004266;
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+    gap: .8rem;
+    
+    border-left: .25rem solid #42d3ff;
+    border-radius: .25rem;
+    color: #02283c;
+
+    -webkit-transition: border-left .3s ease-in;
+    -moz-transition: border-left .3s ease-in;
+    -o-transition: border-left .3s ease-in;
+    transition: border-left .3s ease-in;
+}
+
+.container:hover, .container__open:hover {
+    background-color: #044162;
+    cursor: pointer;
+}
+
+.title__row {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #42d3ff;
+    font-size: 1.3rem;
+
+    -webkit-transition: color .7s ease-out;
+    -moz-transition: color .7s ease-out;
+    -o-transition: color .7s ease-out;
+    transition: color .7s ease-out;
+
+    webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+}
+
+.title__row__open {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: #E4E4E4;
+    font-size: 1.3rem;
+
+    -webkit-transition: color .7s ease-out;
+    -moz-transition: color .7s ease-out;
+    -o-transition: color .7s ease-out;
+    transition: color .7s ease-out;
+
+    webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+}
+
+.menu__title {
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    font-size: inherit;
+}
+
+.menu__paragr {
+    width: 100%;
+    padding-inline: 2rem;
+    
+    color: #cbcbcb;
+    font-size: 1rem;
+
+    webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+}
+
+.icon {
+    color: white;
+}
+
+
+@media (max-width: 1500px) {
+    .container {
+        width: 96%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 96%;
+    }
+}
+
+@media (max-width: 760px) {
+    .title__row,
+    .title__row__open {
+        font-size: clamp(1rem, 3vw, 1.3rem);
+    }
+}
