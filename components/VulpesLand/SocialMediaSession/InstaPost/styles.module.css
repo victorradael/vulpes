@@ -1,0 +1,61 @@
+.container {
+    background-color: #eee;
+    width: 24rem;
+    height: 34rem;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    opacity: 0.6;
+}
+
+.header {
+    width: 100%;
+    padding-block: 1rem;
+    padding-inline: .75rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .75rem;
+    font-weight: 600;
+}
+
+.join {
+    display: flex;
+    flex-direction: row;
+    gap: .75rem;
+}
+
+.body {
+    height: 65%;
+    width: 100%;
+    background-color: #676767;
+}
+
+.footer {
+    width: 100%;
+    padding-block: 1rem;
+    padding-inline: .75rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: .75rem;
+}
+
+.icons_line {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: .75rem;
+    
+}
+
+.description {
+    width: 100%;
+}
