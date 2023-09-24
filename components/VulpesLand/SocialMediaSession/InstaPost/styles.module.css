@@ -11,6 +11,15 @@
     opacity: 0.6;
 }
 
+.container:hover {
+    opacity: 0.82;
+
+    -webkit-transition: opacity 1.8s ease-out;
+       -moz-transition: opacity 1.8s ease-out;
+         -o-transition: opacity 1.8s ease-out;
+            transition: opacity 1.8s ease-out;
+}
+
 .header {
     width: 100%;
     padding-block: 1rem;

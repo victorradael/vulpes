@@ -9,9 +9,9 @@
     gap: 6rem;
 
     color: white;
-    box-shadow: 6px 0 80px -4px #00000090, -6px 0 80px -4px #00000090; 
-    -moz-box-shadow: 6px 0 80px -4px #00000090, -6px 0 80px -4px #00000090; 
     -webkit-box-shadow: 6px 0 80px -4px #00000090, -6px 0 100px -4px #00000090;
+       -moz-box-shadow: 6px 0 80px -4px #00000090, -6px 0 80px  -4px #00000090; 
+            box-shadow: 6px 0 80px -4px #00000090, -6px 0 80px  -4px #00000090; 
 }
 
 .call_to_insta {
