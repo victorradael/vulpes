@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: flex-start;
     overflow-y: hidden;
-    background-color: #FEFEFE;
+    background-color: #fff8e3;
     border-block: .05rem var(--placeholder) solid;
     z-index: 999;
 }

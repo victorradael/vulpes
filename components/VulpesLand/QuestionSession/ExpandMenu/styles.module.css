@@ -1,6 +1,6 @@
 .container {
     width: 96%;
-    background-color: #033b59;
+    background-color: #072a5f;
     padding: 1rem 1.5rem;
     flex-direction: column;
     gap: .8rem;
@@ -11,12 +11,12 @@
 
 .container__open {
     width: 96%;
-    background-color: #004266;
+    background-color: #093372;
     padding: 1rem 1.5rem;
     flex-direction: column;
     gap: .8rem;
     
-    border-left: .25rem solid #42d3ff;
+    border-left: .25rem solid #ffc110;
     border-radius: .25rem;
     color: #02283c;
 
@@ -27,7 +27,7 @@
 }
 
 .container:hover, .container__open:hover {
-    background-color: #044162;
+    background-color: #093372;
     cursor: pointer;
 }
 
@@ -36,7 +36,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    color: #42d3ff;
+    color: #ffc110;
     font-size: 1.3rem;
 
     -webkit-transition: color .7s ease-out;
@@ -57,7 +57,7 @@
     flex-direction: row;
     justify-content: space-between;
 
-    color: #E4E4E4;
+    color: #fff8e3;
     font-size: 1.3rem;
 
     -webkit-transition: color .7s ease-out;
@@ -97,7 +97,7 @@
 }
 
 .icon {
-    color: white;
+    color: #fff8e3;
 }
 
 

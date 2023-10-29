@@ -1,10 +1,10 @@
 import { StaticImageData } from 'next/image';
 
-import journeyImgIcon from '../../../public/LANDPAGE/icons/journey-icon.png'
-import overseasImgIcon from '../../../public/LANDPAGE/icons/overseas-icon.png'
-import paceImgIcon from '../../../public/LANDPAGE/icons/pace-icon.png'
-import impulseImgIcon from '../../../public/LANDPAGE/icons/impulse-icon.png'
-import businessClubImgIcon from '../../../public/LANDPAGE/icons/business-club-icon.png'
+import journeyImgIcon from '../../../public/LANDPAGE/icons/journey.png'
+import overseasImgIcon from '../../../public/LANDPAGE/icons/overseas.png'
+import paceImgIcon from '../../../public/LANDPAGE/icons/pro-ace.png'
+import impulseImgIcon from '../../../public/LANDPAGE/icons/impulse.png'
+import businessClubImgIcon from '../../../public/LANDPAGE/icons/business-class.png'
 
 import journeyImg from '../../../public/LANDPAGE/trailsContent/journey-content.png';
 import overseasImg from '../../../public/LANDPAGE/trailsContent/overseas-content.png';
@@ -78,7 +78,7 @@ export const choseTrail = (props: IndividualTrailContentProps) => {
             { tag: 'p', text: 'em experiências extraordinárias! Com um programa completo, você terá preparação linguística e cultural para aproveitar ao máximo sua aventura no exterior.' },
           ],
           [
-            { tag: 'p', text: 'Conte com nossos professores especializados, Mariana e Henrique, para ' },
+            { tag: 'p', text: 'Conte com nossos professores especializados, para ' },
             { tag: 'strong', text: 'guiar você desde o aeroporto ' },
             { tag: 'p', text: `até situações do dia a dia, como compras e interações profissionais. Ao final, você terá o repertório necessário para se comunicar com confiança, evitando estresse e insegurança. Explore o mundo com fluência e segurança. Viva experiências únicas com o Vulpes ${PROGRAM.OVERSEAS}!` },
           ]

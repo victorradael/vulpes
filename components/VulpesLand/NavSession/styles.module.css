@@ -50,10 +50,10 @@
 }
 
 .session:hover {
-    color: #003049;
+    color: #04152f;
     cursor: pointer;
     padding-top: 0.2rem;
-    border-bottom: .2rem #376B86 solid;
+    border-bottom: .2rem #ffc110  solid;
 }
 
 .button {
