@@ -6,7 +6,7 @@
 }
 
 .color__1, .color__2 {
-    fill: var(--text-dark-color);
+    fill: #04152f;
     -webkit-transition: fill .7s ease-out;
     -moz-transition: fill .7s ease-out;
     -o-transition: fill .7s ease-out;
@@ -35,9 +35,9 @@
     cursor: pointer;
 
     .color__1 {
-        fill: #780000;
+        fill: #ffc110;
     }
     .color__2 {
-        fill: #E0A38D;
+        fill: #ffda75;
     }
 }

@@ -7,7 +7,7 @@
     flex-direction: column;
     gap: 6rem;
 
-    color: white;
+    color: #fff8e3;
 }
 
 .footer__top {
@@ -26,7 +26,7 @@
 
 .button {
     background-color: var(--red-wine);
-    color: #fefefe;
+    color: #fff8e3;
     font-size: 1.2rem;
     border: none;
     font-weight: 600;
@@ -40,7 +40,7 @@
 
 .button:hover {
     background-color: var(--red-wine-light);
-    color: #fefefe;
+    color: #fff8e3;
 }
 
 .footer__bottom {

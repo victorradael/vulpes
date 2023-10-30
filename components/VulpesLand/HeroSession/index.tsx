@@ -4,12 +4,12 @@ import Image from 'next/image';
 import cecilia_img from '../../../public/PESSOAS/foto-Cecilia-Martins.png';
 import pollyana_img from '../../../public/PESSOAS/foto-Pollyana-Helena.png';
 import guilherme_img from '../../../public/PESSOAS/foto-Guilherme-Rodrigues.png';
-import more_people_img from '../../../public/PESSOAS/more-people.png';
+import more_people_img from '../../../public/PESSOAS/more_people.png';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const HeroSession = () => {
   const [ lang ] = useTypewriter({
-    words: ['Inglês', 'Espanhol', 'Alemão', 'Francês'],
+    words: ['Inglês', 'Espanhol', 'Alemão'],
     loop: 0,
     typeSpeed: 120,
     deleteSpeed: 80,
@@ -17,7 +17,7 @@ const HeroSession = () => {
   });
 
   const [ ola ] = useTypewriter({
-    words: ['Hello_', 'Hola_', 'Hallo_', 'Bonjour_'],
+    words: ['Hello_', 'Hola_', 'Hallo_'],
     loop: 0,
     typeSpeed: 0,
     deleteSpeed: 0,

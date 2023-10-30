@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: flex-start;
     overflow-y: hidden;
-    background-color: #FEFEFE;
+    background-color: #fff8e3;
 }
 
 @media (max-width: 1000px) {

@@ -26,7 +26,7 @@ const ManifestSession = () => {
         <span className={styles.title__manifest}><VscVerifiedFilled className={styles.text__blue}/> Manifesto Vulpes</span>
         <p className={styles.paragr}>Imagine dominar um novo idioma, abrir portas para oportunidades e conectar-se globalmente! Na Vulpes, vamos além de simplesmente ensinar idiomas. Nós o inspiramos e capacitamos a abraçar o mundo com <span className={styles.text__blue}>confiança linguística</span>.</p>
         <p className={styles.paragr}>Nossas aulas são totalmente personalizadas para atender às suas necessidades e metas. Aprenda a se comunicar com confiança e fluência, do seu jeito! Esqueça as aulas chatas e mergulhe em um <span className={styles.text__blue}>ambiente dinâmico e interativo</span>, onde você será incentivado a falar e se expressar no idioma escolhido.</p>
-        <p className={styles.paragr}>Com nossa metodologia online exclusiva, você aprende no seu próprio ritmo, de <span className={styles.text__blue}>qualquer lugar</span>, a <span className={styles.text__blue}>qualquer hora</span>. E tem mais! Estamos aqui para orientá-lo em quatro idiomas incríveis: Inglês, Espanhol, Alemão e Francês.</p>
+        <p className={styles.paragr}>Com nossa metodologia online exclusiva, você aprende no seu próprio ritmo, de <span className={styles.text__blue}>qualquer lugar</span>, a <span className={styles.text__blue}>qualquer hora</span>. E tem mais! Estamos aqui para orientá-lo em três idiomas incríveis: Inglês, Espanhol e Alemão.</p>
       </div>
       <div className={styles.sparkles__image}>
           <Image

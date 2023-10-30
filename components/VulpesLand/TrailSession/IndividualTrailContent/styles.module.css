@@ -39,7 +39,7 @@
 
 .button {
     background-color: var(--red-wine);
-    color: #fefefe;
+    color: #fff8e3;
     font-size: clamp(1rem, 3.2vw, 1.3rem);
     border: none;
     font-weight: 500;
