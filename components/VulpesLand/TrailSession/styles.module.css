@@ -27,7 +27,7 @@
     justify-content: flex-start;
     gap: 0.2rem;
 
-    border-bottom: 2px solid #E0AEB1;
+    border-bottom: 2px solid #ffbf1070;
 }
 
 .paragr__place {
@@ -54,7 +54,7 @@
 }
 
 .text__red {
-    color: var(--red-wine);
+    color: #ffc110;
     font-weight: 600;
 }
 

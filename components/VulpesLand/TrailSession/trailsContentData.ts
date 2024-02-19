@@ -6,19 +6,19 @@ import paceImgIcon from '../../../public/LANDPAGE/icons/pro-ace.png'
 import impulseImgIcon from '../../../public/LANDPAGE/icons/impulse.png'
 import businessClubImgIcon from '../../../public/LANDPAGE/icons/business-class.png'
 
-import journeyImg from '../../../public/LANDPAGE/trailsContent/journey-content.png';
-import overseasImg from '../../../public/LANDPAGE/trailsContent/overseas-content.png';
-import paceImg from '../../../public/LANDPAGE/trailsContent/pace-content.png';
-import impulseImg from '../../../public/LANDPAGE/trailsContent/impulse-content.png';
-import businessClubImg from '../../../public/LANDPAGE/trailsContent/business-club-content.png';
-import { contactAgent } from '../../../public/Assets/Contact-Agent';
+import journeyImg from '../../../public/LANDPAGE/trailsContent/pic-pc-with-time.jpg';
+import overseasImg from '../../../public/LANDPAGE/trailsContent/hands-with-passport.jpg';
+import paceImg from '../../../public/LANDPAGE/trailsContent/mug-and-plants.jpg';
+import impulseImg from '../../../public/LANDPAGE/trailsContent/Rebecca-520-1.jpg';
+import businessClubImg from '../../../public/LANDPAGE/trailsContent/hotel.jpg';
+import { jouneyContact, overseasContact, proAceContact, proBusinessMasterClass, proConsultoriaVlps } from '../../../public/Assets/Contact-Agent';
 
 enum PROGRAM {
   JOURNEY = 'Journey',
   OVERSEAS = 'Overseas',
   PRO_ACE = 'Pro Ace',
-  IMPULSE = 'Impulse',
-  BUSINESS_CLASS = 'Business Class',
+  CONSULTORIA_VLPS = 'Consultoria VLPS',
+  BUSINESS_MASTERCLASS = 'Business Masterclass',
 }
 
 interface IndividualTrailContentProps {
@@ -56,14 +56,24 @@ export const choseTrail = (props: IndividualTrailContentProps) => {
         `,
         description: [
           [
-            { tag: 'p', text: 'Aprenda a se comunicar com confiança, fluência e precisão em diferentes idiomas, expandindo suas oportunidades pessoais e profissionais.' }
+            { tag: 'p', text: 'Aprenda a se comunicar em inglês ' },
+            { tag: 'strong', text: 'de verdade.' },
+          ],
+          [
+            { tag: 'p', text: `Conheça o Vulpes ${PROGRAM.JOURNEY}. Nós te acompanhamos do início ao fim da sua jornada rumo à fluência, do iniciante ao avançado. Partindo de onde você está, até onde você quer chegar.` },
+          ],
+          [
+            { tag: 'p', text: `Com aulas comunicativas e personalizadas para o seu perfil e objetivos, o Vulpes ${PROGRAM.JOURNEY} é o caminho mais eficiente para aprender inglês de fato. Aulas individuais ou em dupla, na frequência ideal para você.` },
+          ],
+          [
+            { tag: 'strong', text: 'Para todos os níveis de proficiência.' },
           ]
         ],
         buttonTitle: 'Conhecer jornada',
-        buttonLink: contactAgent,
+        buttonLink: jouneyContact,
         image: journeyImg,
-        imgWidth: 428,
-        imgHeight: 337
+        imgWidth: 340,
+        imgHeight: 520
       } as IndividualContent;
     }
     case 1: {
@@ -73,21 +83,23 @@ export const choseTrail = (props: IndividualTrailContentProps) => {
         title: 'Preparatório para viagens, intercâmbios e imigrações',
         description: [
           [
-            { tag: 'p', text: `Descubra o Vulpes ${PROGRAM.OVERSEAS} e transforme suas ` },
-            { tag: 'strong', text: 'viagens internacionais ' },
-            { tag: 'p', text: 'em experiências extraordinárias! Com um programa completo, você terá preparação linguística e cultural para aproveitar ao máximo sua aventura no exterior.' },
+            { tag: 'p', text: `Prepare-se para a sua viagem internacional. Explore o mundo com fluência e segurança.` },
           ],
           [
-            { tag: 'p', text: 'Conte com nossos professores especializados, para ' },
-            { tag: 'strong', text: 'guiar você desde o aeroporto ' },
-            { tag: 'p', text: `até situações do dia a dia, como compras e interações profissionais. Ao final, você terá o repertório necessário para se comunicar com confiança, evitando estresse e insegurança. Explore o mundo com fluência e segurança. Viva experiências únicas com o Vulpes ${PROGRAM.OVERSEAS}!` },
+            { tag: 'p', text: `Transforme suas viagens internacionais em experiências extraordinárias. Você receberá preparação linguística e cultural para aproveitar ao máximo sua jornada no exterior.` },
+          ],
+          [
+            { tag: 'p', text: `Nossos professores especializados vão guiar você desde o aeroporto até situações do dia a dia, como compras e interações profissionais. Ao final das 15 sessões, você terá o repertório necessário para se comunicar com confiança, evitando estresse e insegurança com o Vulpes ${PROGRAM.OVERSEAS}.` },
+          ],
+          [
+            { tag: 'strong', text: 'Para todos os níveis de proficiência.' },
           ]
         ],
-        buttonTitle: 'Conhecer jornada',
-        buttonLink: contactAgent,
+        buttonTitle: 'Embarcar',
+        buttonLink: overseasContact,
         image: overseasImg,
-        imgWidth: 400,
-        imgHeight: 400
+        imgWidth: 360,
+        imgHeight: 500
       } as IndividualContent;
     }
     case 2: {
@@ -97,68 +109,69 @@ export const choseTrail = (props: IndividualTrailContentProps) => {
         title: 'Preparatório para Testes de Proficiência',
         description: [
           [
-            { tag: 'p', text: `Domine os testes de proficiência em idiomas com o Vulpes ${PROGRAM.PRO_ACE}! Prepare-se para ` },
-            { tag: 'strong', text: 'conquistar resultados excepcionais ' },
-            { tag: 'p', text: 'em exames desafiadores.' },
+            { tag: 'p', text: `Prepare-se para as provas de proficiência mais relevantes do mundo.` },
           ],
           [
-            { tag: 'p', text: 'Tenha acesso a materiais abrangentes, simulações autênticas e estratégias eficazes. Nossa equipe estará ao seu lado, fornecendo orientação personalizada para ' },
-            { tag: 'strong', text: 'maximizar seu desempenho' },
-            { tag: 'p', text: `. Não deixe que os testes de proficiência te impeçam de alcançar suas metas. Inscreva-se no Vulpes ${PROGRAM.PRO_ACE} e eleve seu nível para o sucesso!` },
+            { tag: 'p', text: `Nenhum curso disponível no mercado te prepara para conquistar resultados excepcionais em exames de proficiência como o Vulpes ${PROGRAM.PRO_ACE}. Se você precisa se preparar para o TOEFL, TOEIC, IELTS, FCE, CAE ou FCE, o VPA é o programa para você.` },
+          ],
+          [
+            { tag: 'p', text: 'Você terá acesso a materiais robustos, simulações guiadas e as melhores estratégias para provas de proficiência. Nossos professores especializados estarão ao seu lado, com um acompanhamento personalizado para maximizar seu desempenho. Com a Vulpes, as provas se tornam portas abertas para os seus objetivos.' },
+          ],
+          [
+            { tag: 'strong', text: 'Para intermediários e avançados.' },
           ]
         ],
         buttonTitle: 'Conhecer jornada',
-        buttonLink: contactAgent,
+        buttonLink: proAceContact,
         image: paceImg,
-        imgWidth: 463,
-        imgHeight: 345
+        imgWidth: 350,
+        imgHeight: 480
       } as IndividualContent;
     }
     case 3: {
       return {
-        name: PROGRAM.IMPULSE,
-        iconPath: impulseImgIcon,
-        title: 'Programa de Mentoria de Aceleração Comunicativa',
-        description: [
-          [
-            { tag: 'p', text: `Impulsione seu progresso linguístico com o Vulpes ${PROGRAM.IMPULSE}! Nossa mentoria personalizada irá acelerar sua fluência e ` },
-            { tag: 'strong', text: 'confiança na comunicação' },
-            { tag: 'p', text: '. Guiado por especialistas experientes, você desenvolverá pronúncia, vocabulário e habilidades de conversação.' },
-          ],
-          [
-            { tag: 'p', text: 'Aproveite recursos exclusivos e ferramentas online interativas. Transforme sua comunicação e abra portas para um futuro brilhante. ' },
-            { tag: 'strong', text: 'Alcance a maestria linguística ' },
-            { tag: 'p', text: `com o Vulpes ${PROGRAM.IMPULSE}!` },
-          ]
-        ],
-        buttonTitle: 'Conhecer jornada',
-        buttonLink: contactAgent,
-        image: impulseImg,
-        imgWidth: 435,
-        imgHeight: 450
-      } as IndividualContent;
-    }
-    case 4: {
-      return {
-        name: PROGRAM.BUSINESS_CLASS,
+        name: PROGRAM.BUSINESS_MASTERCLASS,
         iconPath: businessClubImgIcon,
         title: 'Clube de Conversação em Inglês para Negócios',
         description: [
           [
-            { tag: 'p', text: `Domine o inglês dos negócios com o Vulpes ${PROGRAM.BUSINESS_CLASS}! ` },
-            { tag: 'strong', text: 'Aperfeiçoe suas habilidades ' },
-            { tag: 'p', text: 'de comunicação em reuniões, apresentações e negociações.' },
+            { tag: 'p', text: `A aula que vai transformar o seu inglês para negócios para sempre.` },
           ],
           [
-            { tag: 'p', text: `Conecte-se com profissionais experientes, expanda seu vocabulário e faça networking. Esteja preparado para brilhar na carreira internacional. Junte-se ao Vulpes ${PROGRAM.BUSINESS_CLASS} e ` },
-            { tag: 'strong', text: 'destaque-se no mundo dos negócios!' },
+            { tag: 'p', text: `A Vulpes ${PROGRAM.BUSINESS_MASTERCLASS} é para você que precisa do inglês no seu trabalho, e não tem tempo a perder. Nesta aula de uma hora, você encontrará as melhores ferramentas e orientações para fazer o inglês que você tem funcionar na prática, para a sua vida, seja seu nível iniciante ou avançado.` },
+          ],
+          [
+            { tag: 'p', text: `Ao adquirir a Masterclass, você recebe também um material de apoio e tem direito à correção personalizada do seu texto.` },
           ]
         ],
-        buttonTitle: 'Conhecer jornada',
-        buttonLink: contactAgent,
+        buttonTitle: 'Quero a Masterclass',
+        buttonLink: proBusinessMasterClass,
         image: businessClubImg,
         imgWidth: 420,
         imgHeight: 420
+      } as IndividualContent;
+    }
+    case 4: {
+      return {
+        name: PROGRAM.CONSULTORIA_VLPS,
+        iconPath: impulseImgIcon,
+        title: 'Programa de Mentoria de Aceleração Comunicativa',
+        description: [
+          [
+            { tag: 'p', text: `A consultoria estratégica da Vulpes é o programa para você que já fala inglês, quer levar a comunicação a um patamar de excelência e está disposto a seguir as orientações para aprimorar sua comunicação por conta própria.` },
+          ],
+          [
+            { tag: 'p', text: 'Esta é sua única oportunidade de ser atendido pela CEO da Vulpes, Rebecca, que trilhou uma carreira de sucesso como professora de inglês por dez anos antes de se dedicar exclusivamente aos negócios.' },
+          ],
+          [
+            { tag: 'p', text: 'Na consultoria estratégica você recebe insights e direcionamentos para se comunicar com eficácia e precisão onde você estiver. Sua comunicação transformada em até 5 sessões.' },
+          ]
+        ],
+        buttonTitle: 'Acessar os insights da CEO',
+        buttonLink: proConsultoriaVlps,
+        image: impulseImg,
+        imgWidth: 350,
+        imgHeight: 520
       } as IndividualContent;
     }
   }

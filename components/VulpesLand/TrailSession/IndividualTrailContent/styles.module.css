@@ -33,12 +33,12 @@
     font-size: clamp(1.8rem, 6.6vw, 2.4rem);
     font-weight: 800;
     display: none;
-    color: #e28389;
+    color: #ffbf1070;
     font-family: 'Sora', sans-serif;
 }
 
 .button {
-    background-color: var(--red-wine);
+    background-color: #ffc110;
     color: #fff8e3;
     font-size: clamp(1rem, 3.2vw, 1.3rem);
     border: none;
@@ -52,7 +52,7 @@
 }
 
 .button:hover {
-    background-color: var(--red-wine-light);
+    background-color: #ffd152;
     color: #fefefe;
 }
 

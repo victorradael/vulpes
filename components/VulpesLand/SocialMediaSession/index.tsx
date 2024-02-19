@@ -38,7 +38,7 @@ const SocialMediaSession = () => {
         </div>
       </div>
       <div className={styles.rect}>
-      <a href="https://www.instagram.com/vulpesidiomas/" target="_blank" rel="noopener noreferrer" className={styles.remove__style}>
+        <a href="https://www.instagram.com/vulpesidiomas/" target="_blank" rel="noopener noreferrer" className={styles.remove__style}>
           <div className={styles.image__circle_2}>
               <Image
                   src={insta_icon}
