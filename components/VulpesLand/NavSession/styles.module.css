@@ -58,8 +58,8 @@
 
 .button {
     background-color: transparent;
-    color: var(--red-wine);
-    border: .1rem var(--red-wine) solid;
+    color: #ffc110;
+    border: .1rem #ffc110 solid;
     font-weight: 600;
     border-radius: .4rem;
     padding: .2rem 1rem;
@@ -70,7 +70,7 @@
 }
 
 .button:hover {
-    background-color: var(--red-wine);
+    background-color: #ffc110;
     color: #FEFEFE;
 }
 

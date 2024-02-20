@@ -29,6 +29,16 @@
     user-select: none;            /* Possível implementação no futuro */
 }
 
+.rebecca__pic {
+    border-radius: 0 0 40rem 40rem;
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+}
+
 .know__more {
     font-size: 1.5rem;
 }
@@ -84,7 +94,12 @@
 @media (max-width: 1350px) {
     .container {
         flex-direction: column;
-        width: 493px;
+        background-color: #0f0f0fb0;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .rebecca__pic {
+        width: 400px;
     }
 
     .know__more__session {
@@ -95,15 +110,17 @@
     .know__more__session :nth-child(1) { order: 2; }
 
     .paragr__place {
-        margin-top: -2rem;
+        margin-top: -5rem;
         margin-left: 0;
         padding-inline: 2rem;
-        padding-top: 4rem;
+        border-radius: 0 0 1rem 1rem;
+        z-index: 999;
     }
 }
 
 @media (max-width: 760px) {
     .main__box {
+        flex-direction: column;
         width: 80vw;
     }
 
@@ -112,6 +129,10 @@
     }
 
     .insignia__image {
+        width: 220px;
+    }
+
+    .rebecca__pic {
         width: 220px;
     }
 

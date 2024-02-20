@@ -9,7 +9,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const HeroSession = () => {
   const [ lang ] = useTypewriter({
-    words: ['Inglês', 'Espanhol', 'Alemão'],
+    words: ['Inglês', 'Espanhol'],
     loop: 0,
     typeSpeed: 120,
     deleteSpeed: 80,
@@ -17,7 +17,7 @@ const HeroSession = () => {
   });
 
   const [ ola ] = useTypewriter({
-    words: ['Hello_', 'Hola_', 'Hallo_'],
+    words: ['Hello_', 'Hola_'],
     loop: 0,
     typeSpeed: 0,
     deleteSpeed: 0,
@@ -69,7 +69,7 @@ const HeroSession = () => {
               />
             </div>
           </div>
-          <p className={styles.cta__paragr}>Junte-se a <span className={styles.text__blue}>+100</span> alunos na metodologia de aulas mais eficiênte do mercado</p>
+          <p className={styles.cta__paragr}>Junte-se a <span className={styles.text__blue}>+200</span> alunos na metodologia de aulas mais eficiênte do mercado</p>
         </div>
         {/* <div className={styles.know__more__session}>
           <span className={styles.know__more}>Conheça a Vulpes</span>

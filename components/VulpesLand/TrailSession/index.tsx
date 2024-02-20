@@ -14,7 +14,7 @@ const TrailSession = () => {
 
   return (
     <div id='method' className={styles.container}>
-      <h4 className={styles.trails__title}>Estude com as <span className={styles.text__red}>melhores trilhas</span> rumo a fluência que existem no mercado</h4>
+      <h4 className={styles.trails__title}>Estude com as <span className={styles.text__red}>melhores trilhas</span> rumo a fluência que existem no mercado.</h4>
       <div className={styles.trails__component}>
         <div className={styles.main__box}>
           <IndividualTrail indice={0} indSelect={trailIndexSelected} onTrailSelection={indexSelect}/>

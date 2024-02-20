@@ -228,6 +228,8 @@
     .intro {
         align-items: center;
         margin: 0;
+        background-color: #f5f5f593;
+        border-radius: 2rem;
     }
 
     .gray {

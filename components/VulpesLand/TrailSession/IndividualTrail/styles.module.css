@@ -21,7 +21,7 @@
 }
 
 .container__sel {
-    border-bottom: 4px solid #AD2831;
+    border-bottom: 4px solid #ffc110;
     opacity: 1;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .trail__title {
-    font-size: clamp(1rem, 2vw, 1.8rem);
+    font-size: clamp(1rem, 2vw, 1.4rem);
 }
 
 @media (max-width: 930px) {

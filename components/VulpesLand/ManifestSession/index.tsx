@@ -1,7 +1,7 @@
 import './styles.module.css';
 import styles from './styles.module.css';
 import Image from 'next/image';
-import insignea from '../../../public/LANDPAGE/insignea-raposa-removebg-preview.png';
+import pic_rebecca from '../../../public/LANDPAGE/Rebecca-374-1PB.jpg';
 import sparkles from '../../../public/LANDPAGE/sparkles.png';
 import { VscVerifiedFilled } from "react-icons/vsc";
 
@@ -9,7 +9,16 @@ const ManifestSession = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.main__box}>
+      <div className={styles.rebecca__pic}>
+        <Image
+          src={pic_rebecca}
+          alt="foto da Rebecca"
+          width={350}
+          height={500}
+        />
+      </div>
+
+      {/* <div className={styles.main__box}>
         <div className={styles.know__more__session}>
           <div className={styles.insignia__image}>
             <Image
@@ -21,12 +30,12 @@ const ManifestSession = () => {
           </div>
           <span className={styles.know__more}>Selo <span className={styles.text__blue}>Vulpes</span> de Garantia</span>
         </div>
-      </div>
+      </div> */}
       <div className={styles.paragr__place}>
         <span className={styles.title__manifest}><VscVerifiedFilled className={styles.text__blue}/> Manifesto Vulpes</span>
-        <p className={styles.paragr}>Imagine dominar um novo idioma, abrir portas para oportunidades e conectar-se globalmente! Na Vulpes, vamos além de simplesmente ensinar idiomas. Nós o inspiramos e capacitamos a abraçar o mundo com <span className={styles.text__blue}>confiança linguística</span>.</p>
-        <p className={styles.paragr}>Nossas aulas são totalmente personalizadas para atender às suas necessidades e metas. Aprenda a se comunicar com confiança e fluência, do seu jeito! Esqueça as aulas chatas e mergulhe em um <span className={styles.text__blue}>ambiente dinâmico e interativo</span>, onde você será incentivado a falar e se expressar no idioma escolhido.</p>
-        <p className={styles.paragr}>Com nossa metodologia online exclusiva, você aprende no seu próprio ritmo, de <span className={styles.text__blue}>qualquer lugar</span>, a <span className={styles.text__blue}>qualquer hora</span>. E tem mais! Estamos aqui para orientá-lo em três idiomas incríveis: Inglês, Espanhol e Alemão.</p>
+        <p className={styles.paragr}>“Conhecer a gramática” não basta para se comunicar em um idioma de forma eficiente. O que abre as portas para as melhores oportunidades do mundo é uma comunicação que <span className={styles.text__blue}>funciona</span>. Por isso, nossas aulas são comunicativas e totalmente personalizadas para atender às suas necessidades e objetivos.</p>
+        <p className={styles.paragr}>Na Vulpes, nós garantimos que é possível aprender a se comunicar com confiança e fluência, dentro da sua disponibilidade. Esqueça aulas genéricas que só consomem seu tempo e dinheiro. Você precisa de um inglês que funcione para a <span className={styles.text__blue}>sua vida</span>.</p>
+        <p className={styles.paragr}>Com nossa metodologia online exclusiva, você aprende no seu ritmo, em um ambiente seguro e com conversação autêntica, em aulas que são feitas para você. Na Vulpes, transformamos o seu tempo em sucesso.</p>
       </div>
       <div className={styles.sparkles__image}>
           <Image
