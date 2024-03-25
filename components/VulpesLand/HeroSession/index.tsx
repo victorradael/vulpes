@@ -8,31 +8,11 @@ import more_people_img from '../../../public/PESSOAS/more_people.png';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const HeroSession = () => {
-  const [ lang ] = useTypewriter({
-    words: ['Inglês', 'Espanhol'],
-    loop: 0,
-    typeSpeed: 120,
-    deleteSpeed: 80,
-    delaySpeed: 2000,
-  });
-
-  const [ ola ] = useTypewriter({
-    words: ['Hello_', 'Hola_'],
-    loop: 0,
-    typeSpeed: 0,
-    deleteSpeed: 0,
-    delaySpeed: 2000,
-  });
 
   return (
     <div className={styles.container} id='header'>
       <div className={styles.intro}>
-        <span className={styles.gray}>{ola}</span>
-        <h1 className={styles.title}>Aprenda <span className={styles.languages}>{lang}</span>
-        <span className={styles.cursor}>
-          <Cursor/>
-        </span>
-        </h1>
+        <h1 className={styles.title}>Aprenda <span className={styles.languages}>Inglês</span></h1>
         <p className={styles.paragr}>de forma personalizada e com foco no seu objetivo</p>
         <div className={styles.vulpes_students__line}>
           <div className={styles.students__line}>

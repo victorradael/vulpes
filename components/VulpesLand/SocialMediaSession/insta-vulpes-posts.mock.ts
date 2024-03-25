@@ -1,21 +1,21 @@
 import { StaticImageData } from 'next/image';
 
-import insta_post01 from '../../../public/LANDPAGE/insta-posts/insta-post01.png';
-import insta_post02 from '../../../public/LANDPAGE/insta-posts/insta-post02.png';
-import insta_post03 from '../../../public/LANDPAGE/insta-posts/insta-post03.png';
-import insta_post04 from '../../../public/LANDPAGE/insta-posts/insta-post04.png';
-import insta_post05 from '../../../public/LANDPAGE/insta-posts/insta-post05.png';
-import insta_post06 from '../../../public/LANDPAGE/insta-posts/insta-post06.png';
-import insta_post07 from '../../../public/LANDPAGE/insta-posts/insta-post07.png';
-import insta_post08 from '../../../public/LANDPAGE/insta-posts/insta-post08.png';
-import insta_post09 from '../../../public/LANDPAGE/insta-posts/insta-post09.png';
-import insta_post10 from '../../../public/LANDPAGE/insta-posts/insta-post10.png';
-import insta_post11 from '../../../public/LANDPAGE/insta-posts/insta-post11.png';
-import insta_post12 from '../../../public/LANDPAGE/insta-posts/insta-post12.png';
-import insta_post13 from '../../../public/LANDPAGE/insta-posts/insta-post13.png';
-import insta_post14 from '../../../public/LANDPAGE/insta-posts/insta-post14.png';
-import insta_post15 from '../../../public/LANDPAGE/insta-posts/insta-post15.png';
-import insta_post16 from '../../../public/LANDPAGE/insta-posts/insta-post16.png';
+import insta_post01 from '../../../public/LANDPAGE/insta-posts/vulpes-post01.png';
+import insta_post02 from '../../../public/LANDPAGE/insta-posts/vulpes-post02.png';
+import insta_post03 from '../../../public/LANDPAGE/insta-posts/vulpes-post03.png';
+import insta_post04 from '../../../public/LANDPAGE/insta-posts/vulpes-post04.png';
+import insta_post05 from '../../../public/LANDPAGE/insta-posts/vulpes-post05.png';
+import insta_post06 from '../../../public/LANDPAGE/insta-posts/vulpes-post06.png';
+import insta_post07 from '../../../public/LANDPAGE/insta-posts/vulpes-post07.png';
+import insta_post08 from '../../../public/LANDPAGE/insta-posts/vulpes-post08.png';
+import insta_post09 from '../../../public/LANDPAGE/insta-posts/vulpes-post09.png';
+import insta_post10 from '../../../public/LANDPAGE/insta-posts/vulpes-post10.png';
+import insta_post11 from '../../../public/LANDPAGE/insta-posts/vulpes-post11.png';
+import insta_post12 from '../../../public/LANDPAGE/insta-posts/vulpes-post12.png';
+import insta_post13 from '../../../public/LANDPAGE/insta-posts/vulpes-post13.png';
+import insta_post14 from '../../../public/LANDPAGE/insta-posts/vulpes-post14.png';
+import insta_post15 from '../../../public/LANDPAGE/insta-posts/vulpes-post15.png';
+import insta_post16 from '../../../public/LANDPAGE/insta-posts/vulpes-post16.png';
 
 
 export interface PostVar {

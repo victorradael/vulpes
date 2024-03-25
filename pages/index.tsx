@@ -10,6 +10,7 @@ import ManifestView from '../views/VulpesLand/ManifestView';
 import TrailView from '../views/VulpesLand/TrailView';
 import QuestionsView from '../views/VulpesLand/QuestionsView';
 import SocialMediaView from '../views/VulpesLand/SocialMediaView';
+import FeedBackView from '../views/VulpesLand/BonusView';
 
 
 const LandingPage: NextPage = () => {
@@ -24,6 +25,7 @@ const LandingPage: NextPage = () => {
             <ManifestView />
             <TrailView />
             <SocialMediaView />
+            <FeedBackView />
             <QuestionsView />
             <LandFooterView />
         </ContentContainer>
